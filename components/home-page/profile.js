@@ -56,8 +56,11 @@ function Profile() {
           </Link>
         </p>
       </div>
-      
-      
+      <hr
+        style={{
+          width: "70%",
+        }}
+      />
     </section>
   );
 }

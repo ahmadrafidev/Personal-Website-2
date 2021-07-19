@@ -2,6 +2,7 @@ import {Fragment} from 'react';
 import Head from 'next/head';
 import Profile from '../components/home-page/profile';
 
+
 function HomePage(props) {
   return (
     <Fragment>
@@ -13,6 +14,7 @@ function HomePage(props) {
         />
       </Head>
       <Profile />
+      
     </Fragment>
   );
 }

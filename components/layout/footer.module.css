@@ -1,0 +1,27 @@
+.footer {
+  font-family: 'Gentium Basic', serif;
+  font-weight: 500;
+  font-size: 36px;
+  max-width: 50rem;
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.footer li {
+  margin: 0 var(--size-4);
+  padding: 15px;
+  align-items: center;
+}
+
+.footer li:hover,
+.footer li:active,
+.footer li.active {
+    color: var(--color-grey-200);
+}
