@@ -5,6 +5,8 @@
 import Logo from './logo';
 import classes from './main-navigation.module.css';
 import Link from 'next/link';
+import Head from 'next/head';
+
 
 function MainNavigation() {
   return(

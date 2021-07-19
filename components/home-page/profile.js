@@ -7,7 +7,7 @@ function Profile() {
     <section className={classes.profile}>
       <div className={classes.image}>
         <Image 
-          src='../../public/images/site/Rafi_Kadept Kastrat.jpg'
+          src='/images/site/Rafi_Kadept Kastrat.jpg'
           alt='my profile picture'
           width={300}
           height={300}
