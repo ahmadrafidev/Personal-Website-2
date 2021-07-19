@@ -6,10 +6,3 @@
   justify-content: space-around;
   display: block;
 }
-
-.header {
-  justify-content: space-between;
-  margin: auto;
-  padding: 20px;
-  display: flex;
-}
