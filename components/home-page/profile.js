@@ -36,18 +36,18 @@ function Profile() {
           />
         </div>
         <p>I am a sophomore Computer Science student at Universitas Indonesia.</p>
-        <p>Currently, I am working on some side projects like website and mobile apps</p>
+        <p>Currently, I am working on some side projects like website and mobile apps.</p>
         <p>I am here to write story about my life in college.</p>
       </div>
       <div>
         <p>
           <Link href="/blog" passHref>
-            <BlueLink href="/about">My Writings</BlueLink>
+            <BlueLink href="/about">My writings</BlueLink>
           </Link>
         </p>
         <p>
           <Link href="/portfolio" passHref>
-            <BlueLink href="/about">My Portfolios</BlueLink>
+            <BlueLink href="/about">My portfolios</BlueLink>
           </Link>
         </p>
         <p>
