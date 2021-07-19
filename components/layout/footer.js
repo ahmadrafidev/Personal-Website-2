@@ -57,8 +57,8 @@ function Footer() {
               <a>
                 <Image 
                   src="/icons/linkedin.png" 
-                  width='39' 
-                  height='35' 
+                  width='40' 
+                  height='40' 
                   alt='linkedin picture'
                   quality='100'
                 />

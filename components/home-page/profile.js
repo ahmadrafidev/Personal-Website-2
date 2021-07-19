@@ -42,12 +42,12 @@ function Profile() {
       <div>
         <p>
           <Link href="/blog" passHref>
-            <BlueLink href="/about">My writings</BlueLink>
+            <BlueLink href="/blog">My writings</BlueLink>
           </Link>
         </p>
         <p>
           <Link href="/portfolio" passHref>
-            <BlueLink href="/about">My portfolios</BlueLink>
+            <BlueLink href="/portflio">My portfolios</BlueLink>
           </Link>
         </p>
         <p>

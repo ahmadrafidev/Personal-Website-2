@@ -5,21 +5,22 @@
   max-width: 50rem;
   text-align: center;
   width: 100%;
-  height: 6rem;
+  height: 50px;
   align-items: center;
   justify-content: space-between;
+  position: absolute;
 }
 
 .footer ul {
   list-style: none;
   display: flex;
+  align-items: baseline;
   margin: 0;
   padding: 0 200px;
   margin-left: 10%;
 }
 
 .footer li {
-  margin: 0 var(--size-4);
   padding: 15px;
   align-items: center;
 }
