@@ -10,3 +10,5 @@ function Layout(props) {
     </Fragment>
   );
 }
+
+export default Layout;

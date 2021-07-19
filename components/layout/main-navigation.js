@@ -8,8 +8,8 @@ import Link from 'next/link';
 
 function MainNavigation() {
   return(
-    <header>
-      <Link>
+    <header className={classes.header}>
+      <Link href='/'>
         <a>
           <Logo />
         </a>
@@ -17,16 +17,24 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link>Home</Link>
+            <Link href='/'>
+              <a>Home</a>
+            </Link>
           </li>
           <li>
-            <Link>Blog</Link>
+            <Link href='/blog'>
+              <a>Blog</a>
+            </Link>
           </li>
           <li>
-            <Link>Portfolio</Link>
+            <Link href='/portfolio'>
+              <a>Portfolio</a>
+            </Link>
           </li>
           <li>
-            <Link>About</Link>
+            <Link href='/about'>
+              <a>About</a>
+            </Link>
           </li>
         </ul>
       </nav>

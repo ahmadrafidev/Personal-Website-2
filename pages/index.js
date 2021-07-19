@@ -1,15 +1,19 @@
+import {Fragment} from 'react';
+import Head from 'next/head';
+import Profile from '../components/home-page/profile';
 
-
-function HomePage() {
+function HomePage(props) {
   return (
-    <section>
-      <div>
-        <h1>Ahmad Rafi Wirana</h1>
-      </div>
-      <div>
-        
-      </div>
-    </section>
+    <Fragment>
+      <Head>
+        <title>A Blog by Ahmad Rafi</title>
+        <meta 
+          name='description'
+          content='A website about my portfolio'
+        />
+      </Head>
+      <Profile />
+    </Fragment>
   );
 }
 
