@@ -1,0 +1,15 @@
+.about {
+  font-family: 'Gentium Basic', serif;
+  text-align: center;
+  font-size: 26px;
+  margin: auto;
+  justify-content: space-around;
+  display: block;
+}
+
+.header {
+  justify-content: space-between;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}

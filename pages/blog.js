@@ -1,10 +1,21 @@
+import Head from 'next/head';
+import {Fragment} from 'react';
+
+import Blog from '../components/blog-page/blog-page';
 
 
 function BlogPage() {
   return (
-    <div>
-      <h1>Coming really soon</h1>
-    </div>
+    <Fragment>
+      <Head>
+        <title>A Blog by Ahmad Rafi</title>
+        <meta 
+          name='description'
+          content='A website about my portfolio'
+        />
+      </Head>
+      <Blog />
+    </Fragment>
   );
 }
 
