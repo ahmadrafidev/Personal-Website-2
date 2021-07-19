@@ -12,6 +12,11 @@ const BlueLink = styled.a `
 function Profile() {
   return(
     <section className={classes.profile}>
+      <hr
+        style={{
+          width: "70%",
+        }}
+      />
       <div className={classes.image}>
         <Image 
           src='/images/site/Rafi_Kadept Kastrat.jpg'
@@ -20,26 +25,38 @@ function Profile() {
           height={300}
         />
       </div>
-      <h1>Hi, I am Rafi!</h1>
-      <p>I am a sophomore computer science student at Universitas Indonesia</p>
-      <p>
-        I am here to write story about my life in college
-      </p>
-      <p>
-        <Link href="/blog" passHref>
-          <BlueLink href="/about">My Writings</BlueLink>
-        </Link>
-      </p>
-      <p>
-        <Link href="/portfolio" passHref>
-          <BlueLink href="/about">My Portfolios</BlueLink>
-        </Link>
-      </p>
-      <p>
-        <Link href="/about" passHref>
-          <BlueLink href="/about">More info about me...</BlueLink>
-        </Link>
-      </p>
+      <div>
+        <div>
+          <h1>Hi, I am Rafi!</h1>
+          <Image 
+            src="/icons/peace.png"
+            height="50"
+            width="50"
+            alt="peace icon"
+          />
+        </div>
+        <p>I am a sophomore Computer Science student at Universitas Indonesia.</p>
+        <p>Currently, I am working on some side projects like website and mobile apps</p>
+        <p>I am here to write story about my life in college.</p>
+      </div>
+      <div>
+        <p>
+          <Link href="/blog" passHref>
+            <BlueLink href="/about">My Writings</BlueLink>
+          </Link>
+        </p>
+        <p>
+          <Link href="/portfolio" passHref>
+            <BlueLink href="/about">My Portfolios</BlueLink>
+          </Link>
+        </p>
+        <p>
+          <Link href="/about" passHref>
+            <BlueLink href="/about">More info about me...</BlueLink>
+          </Link>
+        </p>
+      </div>
+      
       
     </section>
   );
