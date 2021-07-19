@@ -1,11 +1,16 @@
 
 
-function BlogPage() {
+function HomePage() {
   return (
-    <div>
-      <h1>The Blog Page</h1>
-    </div>
+    <section>
+      <div>
+        <h1>Ahmad Rafi Wirana</h1>
+      </div>
+      <div>
+        
+      </div>
+    </section>
   );
 }
 
-export default BlogPage;
+export default HomePage;
