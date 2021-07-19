@@ -1,17 +1,21 @@
 .footer {
   font-family: 'Gentium Basic', serif;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 35px;
   max-width: 50rem;
   text-align: center;
+  width: 100%;
+  height: 6rem;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer ul {
   list-style: none;
   display: flex;
   margin: 0;
-  padding: 0;
-  
+  padding: 0 200px;
+  margin-left: 10%;
 }
 
 .footer li {
@@ -20,8 +24,8 @@
   align-items: center;
 }
 
-.footer li:hover,
-.footer li:active,
-.footer li.active {
+.footer ul:hover,
+.footer ul:active,
+.footer ul.active {
     color: var(--color-grey-200);
 }

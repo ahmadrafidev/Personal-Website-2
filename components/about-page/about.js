@@ -16,6 +16,11 @@ function AboutMe() {
           My name is Ahmad Rafi Wirana. 
         </p>
       </div>
+      <hr 
+        style={{
+          width: "70%",
+        }}
+      />
     </section>
     
   );
