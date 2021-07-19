@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 10%;
 }
 
 .header ul {
@@ -19,13 +19,12 @@
 .header li {
   margin: 0 var(--size-4);
   padding: 15px;
-  font-size: 20px;
-margin: 0 var(--size-4);
+  font-size: 26px;
+  margin: 0 var(--size-4);
 }
 
 .header a {
     color: var(--color-grey-100);
-    font-size: 36px;
     font-weight: 400;
     font-family: 'Gentium Basic', serif;
 }

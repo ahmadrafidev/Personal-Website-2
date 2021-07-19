@@ -15,7 +15,8 @@
   border-radius: 50%;
   overflow: hidden;
   background-color: var(--color-grey-700);
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image img {
@@ -26,16 +27,18 @@
 }
 
 .profile h1 {
-  font-size: var(--size-16);
+  font-size: 60px;
   margin: var(--size-4) 0;
   color: var(--color-grey-300);
   font-family: 'Gentium Basic', serif;
 }
 
 .profile p {
-  font-size: var(--size-6);
-  color: var(--color-grey-200);
-  width: 90%;
+  font-family: 'Gentium Basic', serif;
+  font-size: 23px;
+  color: black;
+  width: 100%;
   max-width: 40rem;
   margin: auto;
+  text-align: center;
 }
