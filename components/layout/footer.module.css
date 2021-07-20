@@ -8,13 +8,12 @@
   height: 50px;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
 }
 
 .footer ul {
   list-style: none;
+  flex-direction: row;
   display: flex;
-  align-items: baseline;
   margin: 0;
   padding: 0 200px;
   margin-left: 10%;
