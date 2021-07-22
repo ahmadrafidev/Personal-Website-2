@@ -11,7 +11,7 @@ function AboutMe() {
     <section className={classes.about}>
       <hr 
         style={{
-          width: "70%",
+          width: "65%",
         }}
       />
       <header className={classes.header}>
@@ -34,7 +34,7 @@ function AboutMe() {
       </body>
       <hr 
         style={{
-          width: "70%",
+          width: "65%",
         }}
       />
     </section>

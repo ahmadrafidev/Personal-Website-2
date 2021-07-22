@@ -19,7 +19,7 @@
 .header li {
   margin: 0 var(--size-4);
   padding: 15px;
-  font-size: 26px;
+  font-size: 1.5rem;
   margin: 0 var(--size-4);
   font-family: 'Gentium Basic', serif;
 }

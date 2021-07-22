@@ -14,7 +14,7 @@ function Profile() {
     <section className={classes.profile}>
       <hr
         style={{
-          width: "70%",
+          width: "65%",
         }}
       />
       <div className={classes.image}>
@@ -62,7 +62,7 @@ function Profile() {
       </body>
       <hr
         style={{
-          width: "70%",
+          width: "65%",
         }}
       />
     </section>

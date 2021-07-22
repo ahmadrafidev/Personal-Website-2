@@ -1,11 +1,13 @@
 .logo {
   font-family: 'Gentium Basic', serif;
   font-weight: bold;
-  font-size: 48px;
+  text-transform: uppercase;
+  overflow: hidden;
+  max-width: max-content;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .logo {
-    font-size: 48px;
+    font-size: 2rem;
   }
 }

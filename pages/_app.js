@@ -9,6 +9,8 @@ function MyApp({ Component, pageProps }) {
         <Layout>
             <Head>
                 <link rel="shortcut icon" href="/icons/mars.png"/>
+                <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+
             </Head>
             <Component {...pageProps }/>
             <Footer />
