@@ -8,6 +8,8 @@
   flex-direction: column;
   margin: 0;
   display: flex;
+  margin-top: auto;
+  bottom: 0;
 }
 
 .footer p {
