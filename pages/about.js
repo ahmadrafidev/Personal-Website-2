@@ -2,12 +2,13 @@ import {Fragment} from 'react';
 
 import AboutMe from '../components/about-page/about';
 import Head from 'next/head';
+import Footer from '../components/layout/footer';
 
 function AboutPage() {
   return (
     <Fragment>
       <Head>
-        <title>A Blog by Ahmad Rafi</title>
+        <title>A blog by Ahmad Rafi</title>
         <meta 
           name='description'
           content='A website about my portfolio'

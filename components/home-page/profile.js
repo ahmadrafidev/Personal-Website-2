@@ -25,37 +25,41 @@ function Profile() {
           height={300}
         />
       </div>
-      <div>
+      <body className={classes.body}>
         <div>
-          <h1>Hi, I am Rafi!</h1>
-          <Image 
-            src="/icons/peace.png"
-            height="50"
-            width="50"
-            alt="peace icon"
-          />
+          <div>
+            <h1>Hi, I am Rafi!</h1>
+              <Image 
+                src="/icons/peace.png"
+                height="50"
+                width="50"
+                alt="peace icon"
+              />
+          </div>
+          <p>
+            I am a sophomore Computer Science student at Universitas Indonesia.
+            Currently, I am working on some side projects like website and mobile apps.  
+            I am here to write story about my life in college.
+          </p>
         </div>
-        <p>I am a sophomore Computer Science student at Universitas Indonesia.</p>
-        <p>Currently, I am working on some side projects like website and mobile apps.</p>
-        <p>I am here to write story about my life in college.</p>
-      </div>
-      <div>
-        <p>
-          <Link href="/blog" passHref>
-            <BlueLink href="/blog">My writings</BlueLink>
-          </Link>
-        </p>
-        <p>
-          <Link href="/portfolio" passHref>
-            <BlueLink href="/portflio">My portfolios</BlueLink>
-          </Link>
-        </p>
-        <p>
-          <Link href="/about" passHref>
-            <BlueLink href="/about">More info about me...</BlueLink>
-          </Link>
-        </p>
-      </div>
+        <div>
+          <p>
+            <Link href="/blog" passHref>
+              <BlueLink href="/blog">My writings</BlueLink>
+            </Link>
+          </p>
+          <p>
+            <Link href="/portfolio" passHref>
+              <BlueLink href="/portflio">My portfolios</BlueLink>
+            </Link>
+          </p>
+          <p>
+            <Link href="/about" passHref>
+              <BlueLink href="/about">More info about me...</BlueLink>
+            </Link>
+          </p>
+        </div>
+      </body>
       <hr
         style={{
           width: "70%",

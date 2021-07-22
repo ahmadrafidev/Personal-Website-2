@@ -8,7 +8,7 @@ function Footer() {
     <footer className={classes.footer}>
       <div>
         <p>
-          Keep in touch:
+          Keep in touch with me:
         </p>
       </div>
       <nav >

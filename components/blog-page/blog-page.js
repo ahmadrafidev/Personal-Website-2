@@ -8,7 +8,7 @@ function Blog() {
           width: "70%",
         }}
       />
-      <h1 className={classes.header}>Under process...</h1>
+      <h1 className={classes.header}>Under construction...</h1>
     </div>
   );
 }

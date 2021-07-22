@@ -2,12 +2,14 @@
   font-family: 'Gentium Basic', serif;
   font-weight: 500;
   font-size: 35px;
-  max-width: 50rem;
+  max-width: 60rem;
   text-align: center;
   width: 100%;
-  height: 50px;
   align-items: center;
   justify-content: space-between;
+  margin-top: auto;
+  bottom: 0;
+  height: 60px;
 }
 
 .footer ul {
@@ -20,7 +22,7 @@
 }
 
 .footer li {
-  padding: 15px;
+  padding: 20px;
   align-items: center;
 }
 
