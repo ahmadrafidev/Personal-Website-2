@@ -2,14 +2,16 @@
   font-family: 'Gentium Basic', serif;
   font-weight: 500;
   font-size: 35px;
-  max-width: 60rem;
-  text-align: center;
-  width: 100%;
-  align-items: center;
+  width: 60rem;
   justify-content: space-between;
-  margin-top: auto;
-  bottom: 0;
   position: absolute;
+  flex-direction: column;
+  margin: 0;
+  display: flex;
+}
+
+.footer p {
+  text-align: center;
 }
 
 .footer ul {
