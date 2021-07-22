@@ -69,7 +69,7 @@ function Footer() {
             <Link passHref href="https://github.com/ahmadrafidev">
               <a>
                 <Image 
-                  src="/icons/Octocat.png" 
+                  src="/icons/github.png" 
                   width='35' 
                   height='35' 
                   alt='github picture'

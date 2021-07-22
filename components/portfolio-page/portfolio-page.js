@@ -9,6 +9,11 @@ function Portfolio() {
         }}
       />
       <h1 className={classes.header}>Under construction...</h1>
+      <hr
+        style={{
+          width: "70%",
+        }}
+      />
     </div>
   );
 }

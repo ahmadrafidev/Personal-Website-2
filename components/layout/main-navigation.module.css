@@ -21,18 +21,19 @@
   padding: 15px;
   font-size: 26px;
   margin: 0 var(--size-4);
+  font-family: 'Gentium Basic', serif;
 }
 
-.header a {
+.logo {
     color: var(--color-grey-100);
     font-weight: 500;
-    font-family: 'Gentium Basic', serif;
 }
 
-.header a:hover,
-.header a:active,
-.header a.active {
-    color: var(--color-grey-200);
+.nav__list :hover,
+.nav__list :active,
+.nav__list.active {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {

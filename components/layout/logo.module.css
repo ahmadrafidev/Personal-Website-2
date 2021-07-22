@@ -1,5 +1,11 @@
 .logo {
   font-family: 'Gentium Basic', serif;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 48px;
+}
+
+@media (min-width: 768px){
+  .logo {
+    font-size: 48px;
+  }
 }

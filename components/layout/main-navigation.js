@@ -12,58 +12,68 @@ function MainNavigation() {
   return(
     <header className={classes.header}>
       <Link href='/'>
-        <a>
+        <a className={classes.logo}>
           <Logo />
         </a>
       </Link>
       <nav>
-        <ul>
+        <ul className={classes.nav__list}>
           <li>
-            <Image 
-              src="/icons/home.png" 
-              width='25' 
-              height='25' 
-              alt='home picture'
-              quality='100'
-            />
+            
             <Link href='/'>
-              <a>Home</a>
+              <a>
+                <Image 
+                  src="/icons/home.png" 
+                  width='25' 
+                  height='25' 
+                  alt='home picture'
+                  quality='100'
+                />
+                Home
+              </a>
             </Link>
           </li>
           <li>
-            <Image 
-              src="/icons/blog.png" 
-              width='25' 
-              height='25' 
-              alt='blog picture'
-              quality='100'
-            />
             <Link href='/blog'>
-              <a>Blog</a>
+              <a>
+                <Image 
+                  src="/icons/blog.png" 
+                  width='25' 
+                  height='25' 
+                  alt='blog picture'
+                  quality='100'
+                />
+                Blog
+              </a>
             </Link>
           </li>
           <li>
-            <Image 
-              src="/icons/portfolio.png" 
-              width='25' 
-              height='25' 
-              alt='portfolio picture'
-              quality='100'
-            />
+            
             <Link href='/portfolio'>
-              <a>Portfolio</a>
+              <a>
+                <Image 
+                  src="/icons/portfolio.png" 
+                  width='25' 
+                  height='25' 
+                  alt='portfolio picture'
+                  quality='100'
+                />
+                Portfolio
+              </a>
             </Link>
           </li>
           <li>
-            <Image 
-              src="/icons/about.png" 
-              width='25' 
-              height='25' 
-              alt='about picture'
-              quality='100'
-            />
             <Link href='/about'>
-              <a>About</a>
+              <a>
+                <Image 
+                  src="/icons/about.png" 
+                  width='25' 
+                  height='25' 
+                  alt='about picture'
+                  quality='100'
+                />
+                About
+              </a>
             </Link>
           </li>
         </ul>
