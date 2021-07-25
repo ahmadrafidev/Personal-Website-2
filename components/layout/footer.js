@@ -7,8 +7,8 @@ import Link from 'next/link';
 function Footer() {
   return(
     // eslint-disable-next-line react/react-in-jsx-scope
-    <footer class="flex justify-between items-stretch border-t-2">
-      <div class="px-80 font-primary flex my-6">
+    <footer class="px-80 py-4 pt-6 flex justify-between items-center border-t-2 sticky">
+      <div class="font-primary flex my-6">
         <div>
           <h1 class="italic text-base font-medium">
             Disclaimer: All writings here are my own and do not represent anything.
@@ -18,7 +18,7 @@ function Footer() {
             </p>
         </div>
       </div>  
-      <div class="md:px-80 flex flex-row items-stretch sticky my-6">
+      <div>
         <div>
           <h1 class="font-primary font-semibold text-2xl">
             Keep in touch with me:
@@ -31,8 +31,8 @@ function Footer() {
                     <a>
                       <Image 
                         src="/icons/instagram.png" 
-                        width='40' 
-                        height='40' 
+                        width='35' 
+                        height='35' 
                         alt='instagram picture'
                         quality='100'
                       />
@@ -44,8 +44,8 @@ function Footer() {
                     <a>
                       <Image 
                         src="/icons/twitter.png" 
-                        width='40' 
-                        height='40' 
+                        width='35' 
+                        height='35' 
                         alt='twitter picture'
                         quality='100'
                       />
@@ -57,8 +57,8 @@ function Footer() {
                     <a> 
                       <Image 
                         src="/icons/medium.png" 
-                        width='40' 
-                        height='40' 
+                        width='35' 
+                        height='35' 
                         alt='medium picture'
                         quality='100'
                       />
@@ -70,8 +70,8 @@ function Footer() {
                     <a>
                       <Image 
                         src="/icons/linkedin.png" 
-                        width='40' 
-                        height='40' 
+                        width='35' 
+                        height='35' 
                         alt='linkedin picture'
                         quality='100'
                       />
@@ -83,8 +83,8 @@ function Footer() {
                     <a>
                       <Image 
                         src="/icons/github.png" 
-                        width='40' 
-                        height='40' 
+                        width='35' 
+                        height='35' 
                         alt='github picture'
                         quality='100'
                       />

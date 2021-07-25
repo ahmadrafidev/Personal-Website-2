@@ -15,7 +15,7 @@ const BlueLink = styled.a `
 function Profile() {
   return(
     <section>
-      <div class="flex flex-grow h-3/5 md:px-80 mt-20 mb-20 justify-between">
+      <div class="flex flex-grow h-auto md:px-80 mt-20 mb-20 justify-between">
         <div class="font-secondary text-justify text-lg">
           <div class="font-bold text-4xl flex mb-5">
             <h1>Hi, I am Rafi!</h1>
@@ -26,11 +26,15 @@ function Profile() {
                 alt="peace icon"
               />
           </div>
-          <div>
+          <div class="leading-loose">
             <p>
               I am a sophomore Computer Science student at Universitas Indonesia.
+            </p>
+            <p>
               Currently, I am working on some side projects like website and mobile apps.  
-              I am here to write story about my life in college.
+            </p>
+            <p>
+               I am here to write story about my life in college.
             </p>
             <p>
               <Link href="/blog" passHref>
@@ -48,13 +52,15 @@ function Profile() {
               </Link>
             </p>
           </div>
-        </div>
-        <div class="ml-14 w-72">
-          {/* <img 
-            class="rounded-full"
-            src='/images/site/Rafi_Kadept Kastrat.jpg'
-            alt='my profile picture'
-          /> */}
+          <div>
+            {/* <Image 
+              class="rounded-full"
+              src='/images/site/Rafi_Kadept Kastrat.jpg'
+              alt='my profile picture'
+              width="50"
+              height="50"
+            /> */}
+          </div>
         </div>
       </div>
     </section>
