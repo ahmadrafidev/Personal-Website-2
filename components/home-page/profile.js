@@ -27,15 +27,42 @@ function Profile() {
               />
           </div>
           <div class="leading-loose">
-            <p>
-              I am a sophomore Computer Science student at Universitas Indonesia.
-            </p>
-            <p>
-              Currently, I am working on some side projects like website and mobile apps.  
-            </p>
-            <p>
-               I am here to write story about my life in college.
-            </p>
+            <div class="flex">
+              <p>
+                I am a sophomore Computer Science student at Universitas Indonesia.
+              </p>
+              <Image 
+                src="/icons/indonesia.png" 
+                width='35' 
+                height='35' 
+                alt='indonesia picture'
+                quality='100'
+              />
+            </div>
+            <div class="flex">
+              <p>
+                Currently, I am working on some side projects like website and mobile apps.  
+              </p>
+              <Image 
+                src="/icons/smartphone.png" 
+                width='35' 
+                height='35' 
+                alt='smartphone picture'
+                quality='100'
+              />
+            </div>
+            <div class="flex">
+              <p>
+                I am here to write story about my life in college.
+              </p>
+              <Image 
+                src="/icons/college.png" 
+                width='35' 
+                height='35' 
+                alt='college picture'
+                quality='100'
+              />
+            </div>       
             <p>
               <Link href="/blog" passHref>
                 <BlueLink href="/blog">My writings</BlueLink>
