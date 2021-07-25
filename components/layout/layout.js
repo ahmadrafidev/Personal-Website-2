@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable react/react-in-jsx-scope */
 import {Fragment} from 'react';
 
 import MainNavigation from './main-navigation';

@@ -1,7 +1,9 @@
+/* eslint-disable react/react-in-jsx-scope */
 import Head from 'next/head';
 import {Fragment} from 'react';
 
 import Blog from '../components/blog-page/blog-page';
+import Footer from '../components/layout/footer';
 
 
 function BlogPage() {
@@ -15,6 +17,7 @@ function BlogPage() {
         />
       </Head>
       <Blog />
+       <Footer />
     </Fragment>
   );
 }

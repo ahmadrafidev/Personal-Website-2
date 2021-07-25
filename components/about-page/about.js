@@ -1,4 +1,6 @@
-import classes from './about.module.css';
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/react-in-jsx-scope */
+
 import styled from 'styled-components';
 import Link from 'next/link';
 
@@ -8,19 +10,14 @@ const BlueLink = styled.a `
 
 function AboutMe() {
   return(
-    <section className={classes.about}>
-      <hr 
-        style={{
-          width: "65%",
-        }}
-      />
-      <header className={classes.header}>
-        <h1>
-          About Me
-        </h1>
-      </header>
-      <body className={classes.body}>
-        <div>
+    <section>
+      <div class="px-80 font-secondary">
+        <div class="uppercase text-center text-3xl font-semibold mt-20 mb-7">
+          <h1>
+            About Me
+          </h1>
+        </div>
+        <div class="text-xl font-medium text-justify mb-20">
           <p>
             My name is Ahmad Rafi Wirana. Currently, I am a sophomere
             Computer Science student at University of Indonesia.  
@@ -31,12 +28,7 @@ function AboutMe() {
             Reach me out on email: <BlueLink><a href="mailto:ahmadrafi9910@gmail.com">send email.</a></BlueLink>
           </p>
         </div>
-      </body>
-      <hr 
-        style={{
-          width: "65%",
-        }}
-      />
+      </div>
     </section>
     
   );

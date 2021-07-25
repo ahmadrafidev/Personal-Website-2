@@ -1,19 +1,11 @@
-import classes from './portfolio-page.module.css'
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/no-unknown-property */
+
 
 function Portfolio() {
   return(
-    <div>
-      <hr
-        style={{
-          width: "70%",
-        }}
-      />
-      <h1 className={classes.header}>Under construction...</h1>
-      <hr
-        style={{
-          width: "70%",
-        }}
-      />
+    <div class="flex px-80 text-2xl items-center uppercase justify-center font-secondary font-bold">
+      <h1>Under construction</h1>
     </div>
   );
 }

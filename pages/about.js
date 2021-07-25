@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import {Fragment} from 'react';
 
 import AboutMe from '../components/about-page/about';
@@ -15,6 +16,7 @@ function AboutPage() {
         />
       </Head>
       <AboutMe />
+      <Footer />
     </Fragment>
   );
 }

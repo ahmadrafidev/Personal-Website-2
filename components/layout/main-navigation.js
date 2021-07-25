@@ -1,83 +1,84 @@
-/*
-  This file is to make header
-  navigation
-*/
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/react-in-jsx-scope */
+
 import Logo from './logo';
-import classes from './main-navigation.module.css';
+
 import Link from 'next/link';
 import Image from 'next/image';
 
 
 function MainNavigation() {
   return(
-    <header className={classes.header}>
-      <Link href='/'>
-        <a className={classes.logo}>
-          <Logo />
-        </a>
-      </Link>
-      <nav>
-        <ul className={classes.nav__list}>
-          <li>
-            
-            <Link href='/'>
-              <a>
-                <Image 
-                  src="/icons/home.png" 
-                  width='25' 
-                  height='25' 
-                  alt='home picture'
-                  quality='100'
-                />
-                Home
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/blog'>
-              <a>
-                <Image 
-                  src="/icons/blog.png" 
-                  width='25' 
-                  height='25' 
-                  alt='blog picture'
-                  quality='100'
-                />
-                Blog
-              </a>
-            </Link>
-          </li>
-          <li>
-            
-            <Link href='/portfolio'>
-              <a>
-                <Image 
-                  src="/icons/portfolio.png" 
-                  width='25' 
-                  height='25' 
-                  alt='portfolio picture'
-                  quality='100'
-                />
-                Portfolio
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href='/about'>
-              <a>
-                <Image 
-                  src="/icons/about.png" 
-                  width='25' 
-                  height='25' 
-                  alt='about picture'
-                  quality='100'
-                />
-                About
-              </a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+    <header class="md:px-80 py-4 pt-10 justify-between flex items-center space-x-80 border-b-2">
+      <div>
+        <Link href='/'>
+          <a >
+            <Logo />
+          </a>
+        </Link>
+      </div>
+      <div class="font-semibold text-2xl font-primary"> 
+        <nav> 
+          <ul class="flex justify-center items-center">
+            <li class="px-8 hover:underline transform hover:scale-110">
+              <Link href='/'>
+                <a>
+                  <Image 
+                    src="/icons/home.png" 
+                    width='25' 
+                    height='25' 
+                    alt='home picture'
+                    quality='100'
+                  />
+                  Home
+                </a>
+              </Link>
+            </li>
+            <li class="px-8 hover:underline transform hover:scale-110">
+              <Link href='/blog'>
+                <a>
+                  <Image 
+                    src="/icons/blog.png" 
+                    width='25' 
+                    height='25' 
+                    alt='blog picture'
+                    quality='100'
+                  />
+                  Blog
+                </a>
+              </Link>
+            </li>
+            <li class="px-8 hover:underline transform hover:scale-110">
+              <Link href='/portfolio'>
+                <a>
+                  <Image 
+                    src="/icons/portfolio.png" 
+                    width='25' 
+                    height='25' 
+                    alt='portfolio picture'
+                    quality='100'
+                  />
+                  Portfolio
+                </a>
+              </Link>
+            </li>
+            <li class="hover:underline transform hover:scale-110">
+              <Link href='/about'>
+                <a>
+                  <Image 
+                    src="/icons/about.png" 
+                    width='25' 
+                    height='25' 
+                    alt='about picture'
+                    quality='100'
+                  />
+                  About
+                </a>
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 }

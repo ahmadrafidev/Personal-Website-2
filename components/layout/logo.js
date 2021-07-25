@@ -1,12 +1,10 @@
-/*
-  this file is to make
-  a trademark on header
-*/
-import classes from './logo.module.css';
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/react-in-jsx-scope */
+
 
 function Logo() {
   return(
-    <div className={classes.logo}>
+    <div class="font-bold font-primary text-xl md:text-3xl uppercase">
       Ahmad Rafi Wirana
     </div>
   );

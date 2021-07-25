@@ -1,6 +1,8 @@
+/* eslint-disable react/react-in-jsx-scope */
 import Head from 'next/head';
 import Portfolio from '../components/portfolio-page/portfolio-page';
 import {Fragment} from 'react';
+import Footer from '../components/layout/footer';
 
 
 function PortfolioPage() {
@@ -14,6 +16,7 @@ function PortfolioPage() {
         />
       </Head>
       <Portfolio />
+      <Footer />
     </Fragment>
   );
 }

@@ -1,6 +1,9 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/react-in-jsx-scope */
 import {Fragment} from 'react';
 import Head from 'next/head';
 import Profile from '../components/home-page/profile';
+import Footer from '../components/layout/footer';
 
 function HomePage(props) {
   return (
@@ -13,6 +16,7 @@ function HomePage(props) {
         />
       </Head>
       <Profile />
+      <Footer />
     </Fragment>
   );
 }
