@@ -267,7 +267,7 @@ module.exports = {
         'monospace',
       ],
       primary: [
-        'Gentium-Basic'
+        'Basic'
       ],
       secondary: [
         'DM Sans'

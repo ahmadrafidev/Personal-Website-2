@@ -7,7 +7,7 @@ import Link from 'next/link';
 function Footer() {
   return(
     // eslint-disable-next-line react/react-in-jsx-scope
-    <footer class="px-80 py-4 pt-6 flex justify-between items-center border-t-2 sticky bg-gray-100">
+    <footer class="px-80 py-4 pt-6 flex justify-between items-center border-t-2 absolute bg-gray-100 inset-x-0 bottom-0">
       <div class="font-primary flex my-6">
         <div>
           <h1 class="italic text-base font-medium">

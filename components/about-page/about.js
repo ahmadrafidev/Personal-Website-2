@@ -12,7 +12,7 @@ function AboutMe() {
   return(
     <section>
       <div class="px-80 mb-auto font-secondary">
-        <div class="uppercase text-center text-3xl font-semibold mt-20 mb-7">
+        <div class="uppercase text-center text-3xl font-semibold mt-16 mb-7">
           <h1>
             About Me
           </h1>

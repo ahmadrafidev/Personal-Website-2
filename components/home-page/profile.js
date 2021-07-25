@@ -15,8 +15,8 @@ const BlueLink = styled.a `
 function Profile() {
   return(
     <section>
-      <div class="flex flex-grow h-auto md:px-80 my-56 justify-between">
-        <div class="font-secondary text-justify text-lg">
+      <div class="flex flex-grow h-auto md:px-80 my-40 justify-between">
+        <div class="font-secondary text-justify text-xl">
           <div class="font-bold text-4xl flex mb-5">
             <h1>Hi, I am Rafi!</h1>
               <Image 
@@ -79,16 +79,16 @@ function Profile() {
               </Link>
             </p>
           </div>
-          <div>
-            {/* <Image 
+        </div>
+        <div class="rounded-full object-right sm:object-top">
+            <Image 
               class="rounded-full"
               src='/images/site/Rafi_Kadept Kastrat.jpg'
               alt='my profile picture'
-              width="50"
-              height="50"
-            /> */}
+              width="400"
+              height="400"
+            />
           </div>
-        </div>
       </div>
     </section>
   );
