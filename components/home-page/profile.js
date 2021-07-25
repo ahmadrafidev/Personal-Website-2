@@ -15,7 +15,7 @@ const BlueLink = styled.a `
 function Profile() {
   return(
     <section>
-      <div class="flex flex-grow h-auto md:px-80 mt-20 mb-20 justify-between">
+      <div class="flex flex-grow h-auto md:px-80 my-56 justify-between">
         <div class="font-secondary text-justify text-lg">
           <div class="font-bold text-4xl flex mb-5">
             <h1>Hi, I am Rafi!</h1>
@@ -29,7 +29,7 @@ function Profile() {
           <div class="leading-loose">
             <div class="flex">
               <p>
-                I am a sophomore Computer Science student at Universitas Indonesia.
+                I am a sophomore Computer Science student at University of Indonesia.
               </p>
               <Image 
                 src="/icons/indonesia.png" 

@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 function MainNavigation() {
   return(
-    <header class="md:px-80 py-4 pt-10 justify-between flex items-center space-x-80 border-b-2">
+    <header class="md:px-80 py-4 pt-10 justify-between flex items-center space-x-80 border-b-2 bg-gray-100">
       <div>
         <Link href='/'>
           <a >

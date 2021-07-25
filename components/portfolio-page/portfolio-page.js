@@ -4,7 +4,7 @@
 
 function Portfolio() {
   return(
-    <div class="flex px-80 text-2xl items-center uppercase justify-center font-secondary font-bold">
+    <div class="flex px-80 my-80 text-2xl items-center uppercase justify-center font-secondary font-bold">
       <h1>Under construction</h1>
     </div>
   );
