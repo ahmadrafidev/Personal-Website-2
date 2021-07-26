@@ -3,7 +3,7 @@ import Head from 'next/head';
 import {Fragment} from 'react';
 
 import Blog from '../components/blog-page/blog-page';
-import Footer from '../components/layout/footer';
+
 
 
 function BlogPage() {
@@ -16,8 +16,7 @@ function BlogPage() {
           content='A website about my portfolio'
         />
       </Head>
-      <Blog />
-       <Footer />
+      <Blog />  
     </Fragment>
   );
 }
