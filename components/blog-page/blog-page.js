@@ -4,7 +4,7 @@
 
 function Blog() {
   return(
-    <div class="flex px-6 md:px-80 my-6 md:my-80 text-2xl items-center uppercase justify-center font-bold font-secondary">
+    <div class="flex px-6 md:px-72 my-6 md:my-80 text-2xl items-center uppercase justify-center font-bold font-secondary">
       <h1>Under construction</h1>
     </div>
   );

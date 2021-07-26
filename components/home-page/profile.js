@@ -15,7 +15,7 @@ const BlueLink = styled.a `
 function Profile() {
   return(
     <section>
-      <div class="flex flex-grow h-auto px-2 md:px-80 my-6 md:my-40 justify-between object-top md:object-right">
+      <div class="flex flex-grow h-auto px-2 md:px-72 lg:px-80 my-6 sm:my-28 justify-between object-top md:object-right">
         <div class="font-secondary text-justify text-sm md:text-xl">
           <div class="font-bold text-xl md:text-4xl flex mb-5">
             <h1>Hi, I am Rafi!</h1>
