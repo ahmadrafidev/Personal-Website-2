@@ -20,7 +20,7 @@ function MainNavigation() {
       <div class="font-semibold text-xl md:text-2xl font-primary"> 
         <nav> 
           <ul class="flex justify-center items-center">
-            <li class="px-8 hover:underline transform hover:scale-110">
+            <li class="px-2 md:px-8 hover:underline transform hover:scale-110">
               <Link href='/'>
                 <a>
                   <Image 
@@ -34,7 +34,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="px-8 hover:underline transform hover:scale-110">
+            <li class="px-2 md:px-8 hover:underline transform hover:scale-110">
               <Link href='/blog'>
                 <a>
                   <Image 
@@ -48,7 +48,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="px-8 hover:underline transform hover:scale-110">
+            <li class="px-2 md:px-8 hover:underline transform hover:scale-110">
               <Link href='/portfolio'>
                 <a>
                   <Image 
@@ -62,7 +62,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="hover:underline transform hover:scale-110">
+            <li class="px-2 hover:underline transform hover:scale-110">
               <Link href='/about'>
                 <a>
                   <Image 
