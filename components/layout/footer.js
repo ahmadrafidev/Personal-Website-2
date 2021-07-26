@@ -7,20 +7,20 @@ import Link from 'next/link';
 function Footer() {
   return(
     // eslint-disable-next-line react/react-in-jsx-scope
-    <footer class="px-80 py-4 pt-6 flex justify-between items-center border-t-2 absolute bg-gray-100 inset-x-0 bottom-0">
+    <footer class="px-2 md:px-80 py-8 flex justify-between items-center border-t-2 absolute bg-gray-100 inset-x-0 bottom-0">
       <div class="font-primary flex my-6">
         <div>
-          <h1 class="italic text-base font-medium">
+          <h1 class="italic text-xs md:text-base font-medium">
             Disclaimer: All writings here are my own and do not represent anything.
           </h1>
-            <p class="text-base font-medium">
+            <p class="text-xs md:text-base font-medium">
               (c) 2021 by Ahmad Rafi Wirana. All Rights Reserved.
             </p>
         </div>
       </div>  
       <div>
         <div>
-          <h1 class="font-primary font-semibold text-2xl">
+          <h1 class="font-primary font-semibold text-xs md:text-2xl">
             Keep in touch with me:
           </h1>
           <div class="flex">

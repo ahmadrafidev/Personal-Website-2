@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 function MainNavigation() {
   return(
-    <header class="md:px-80 py-4 pt-10 justify-between flex items-center space-x-80 border-b-2 bg-gray-100">
+    <header class="px-2 md:px-80 py-8 justify-start md:justify-between flex items-center border-b-2 mx-auto bg-gray-100">
       <div>
         <Link href='/'>
           <a >
@@ -17,7 +17,7 @@ function MainNavigation() {
           </a>
         </Link>
       </div>
-      <div class="font-semibold text-2xl font-primary"> 
+      <div class="font-semibold text-xl md:text-2xl font-primary"> 
         <nav> 
           <ul class="flex justify-center items-center">
             <li class="px-8 hover:underline transform hover:scale-110">
