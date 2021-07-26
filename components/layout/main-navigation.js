@@ -17,7 +17,7 @@ function MainNavigation() {
           </a>
         </Link>
       </div>
-      <div class="font-semibold text-xl md:text-2xl font-primary"> 
+      <div class="font-semibold text-base md:text-2xl font-primary"> 
         <nav> 
           <ul class="flex justify-center items-center">
             <li class="px-2 md:px-8 hover:underline transform hover:scale-110">
