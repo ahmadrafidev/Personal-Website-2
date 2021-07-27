@@ -4,7 +4,7 @@
 
 function Logo() {
   return(
-    <div class="font-bold font-primary text-xl sm:text-3xl md:text-4xl uppercase">
+    <div class="font-bold font-primary text-base sm:text-xl md:text-3xl lg:4xl uppercase">
       Ahmad Rafi Wirana
     </div>
   );
