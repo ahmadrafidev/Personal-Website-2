@@ -20,7 +20,7 @@ function AboutMe() {
         </div>
         <div class="text-sm md:text-xl font-medium text-justify mb-10">
           <p class="leading-loose">
-            My name is Ahmad Rafi Wirana. Currently, I am a sophomere
+            My name is Ahmad Rafi Wirana. Currently, I am a sophomore
             Computer Science student at University of Indonesia.  
             I am a software development, data science, ethical hacking, and competitive programming enthusiast.
             Other than college, I usually do some side projects
