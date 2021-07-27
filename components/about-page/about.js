@@ -12,7 +12,7 @@ const BlueLink = styled.a `
 function AboutMe() {
   return(
     <section>
-      <div class="px-6 md:px-20 lg:px-32 xl:px-60 2xl:px-80 mb-auto font-secondary">
+      <div class="px-6 md:px-20 lg:px-32 xl:px-60 2xl:px-80 mb-auto font-secondary overflow-auto md:overflow-y-scroll">
         <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-7">
           <h1>
             About Me
@@ -45,14 +45,14 @@ function AboutMe() {
             and <BlueLink href="https://graphql.org/">GraphQL</BlueLink> (soon).
           </p>
         </div>
-        {/* <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-7">
+        <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-7">
           <h3>
             TECH STACK 
           </h3>
         </div>
         <div>
-          <ul class="flex ">
-            <li>
+          <ul class="flex flex-col md:flex-row items-center pb-10">
+            <li class="pr-10">
               <Image 
                 src="/icons/next.png"
                 width="100"
@@ -60,7 +60,7 @@ function AboutMe() {
                 alt="nextjs icon"
               />
             </li>
-            <li>
+            <li class="pr-10">
               <Image 
                 src="/icons/python.png"
                 width="70"
@@ -68,8 +68,73 @@ function AboutMe() {
                 alt="python icon"
               />
             </li>
+            <li class="pr-10">
+              <Image 
+                src="/icons/Java.png"
+                width="100"
+                height="65"
+                alt="java icon"
+              />
+            </li>
+            <li class="pr-10">
+              <Image 
+                src="/icons/firebase.png"
+                width="75"
+                height="100"
+                alt="firebase icon"
+              />
+            </li>
+            <li class="pr-10">
+              <Image 
+                src="/icons/flutter.png"
+                width="170"
+                height="65"
+                alt="flutter icon"
+                quality='100'
+              />
+            </li>
+            <li class="pr-10">
+              <Image 
+                src="/icons/graphql.png"
+                width="80"
+                height="80"
+                alt="graphql icon"
+              />
+            </li>
+            <li class="pr-10">
+              <Image 
+                src="/icons/Js.png"
+                width="80"
+                height="80"
+                alt="javascript icon"
+              />
+            </li>
+            <li class="pr-10">
+              <Image 
+                src="/icons/react.png"
+                width="80"
+                height="80"
+                alt="react icon"
+              />
+            </li>
+            <li class="pr-10">
+              <Image 
+                src="/icons/react-native.png"
+                width="80"
+                height="80"
+                alt="react native icon"
+              />
+            </li>
+            <li class="pr-0"> 
+              <Image 
+                src="/icons/tailwind.png"
+                width="80"
+                height="80"
+                alt="tailwind css icon"
+              />
+            </li>
           </ul>
-        </div> */}
+        </div>
       </div>
     </section>
     

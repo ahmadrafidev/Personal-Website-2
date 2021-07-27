@@ -3,7 +3,7 @@ import {Fragment} from 'react';
 
 import AboutMe from '../components/about-page/about';
 import Head from 'next/head';
-
+import Footer from '../components/layout/footer/footer';
 
 function AboutPage() {
   return (
@@ -16,6 +16,7 @@ function AboutPage() {
         />
       </Head>
       <AboutMe />
+      <Footer />
     </Fragment>
   );
 }

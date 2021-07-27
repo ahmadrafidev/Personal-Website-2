@@ -4,7 +4,7 @@ import '../styles/globals.css'
 import Head from 'next/head';
 
 import Layout from '../components/layout/layout';
-import Footer from '../components/layout/footer';
+
 
 function MyApp({ Component, pageProps }) {
     return(
@@ -14,7 +14,6 @@ function MyApp({ Component, pageProps }) {
                 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
             </Head>
             <Component {...pageProps }/>
-            <Footer />
         </Layout>
         
     ); 
