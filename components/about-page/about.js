@@ -41,8 +41,7 @@ function AboutMe() {
             Strategic Action at <BlueLink href="https://bem.cs.ui.ac.id/">BEM Fasilkom UI</BlueLink> and
             Staff of Software Engineering Academy at <BlueLink href="https://www.compfest.id/">COMPFEST</BlueLink>.
             In summer holiday of 2021, instead of doing nothing I make a personal website as a very first portfolio for my 
-            Software Engineering journey. My tech stack is <BlueLink href="https://nextjs.org/">Next JS</BlueLink>, <BlueLink href="https://tailwindcss.com/docs">Tailwind CSS</BlueLink>,
-            and <BlueLink href="https://graphql.org/">GraphQL</BlueLink> (soon).
+            Software Engineering journey.
           </p>
         </div>
         <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-7">
