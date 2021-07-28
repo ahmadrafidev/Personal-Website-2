@@ -13,8 +13,8 @@ function MyApp({ Component, pageProps }) {
                 <link rel="shortcut icon" href="/icons/mars.png"/>
                 <meta charSet="utf-8" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-                <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
-                <html lang="us-en"/>
+                <meta name="viewport" content="width=device-width,initial-scale=1" />
+                <html lang="en"/>
             </Head>
             <Component {...pageProps }/>
         </Layout>
