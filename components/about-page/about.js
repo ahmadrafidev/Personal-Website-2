@@ -12,7 +12,7 @@ const BlueLink = styled.a `
 function AboutMe() {
   return(
     <section>
-      <div class="px-6 md:px-20 lg:px-32 xl:px-60 2xl:px-80 mb-auto font-secondary overflow-auto md:overflow-y-scroll">
+      <div class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 mb-auto font-secondary overflow-auto md:overflow-y-scroll">
         <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-7">
           <h1>
             About Me
@@ -44,14 +44,14 @@ function AboutMe() {
             Software Engineering journey.
           </p>
         </div>
-        <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-7">
+        <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-12">
           <h3>
             TECH STACK 
           </h3>
         </div>
         <div>
-          <ul class="flex flex-col md:flex-row items-center pb-10">
-            <li class="pr-10">
+          <ul class="flex flex-col md:flex-row items-center pb-10 justify-between">
+            <li class="pr-10 w-32 h-32">
               <Image 
                 src="/icons/next.png"
                 width="100"
@@ -59,7 +59,7 @@ function AboutMe() {
                 alt="nextjs icon"
               />
             </li>
-            <li class="pr-10">
+            <li class="pr-10 w-32 h-32">
               <Image 
                 src="/icons/python.png"
                 width="70"
@@ -67,7 +67,7 @@ function AboutMe() {
                 alt="python icon"
               />
             </li>
-            <li class="pr-10">
+            <li class="pr-10 w-36 h-32">
               <Image 
                 src="/icons/Java.png"
                 width="100"
@@ -75,7 +75,7 @@ function AboutMe() {
                 alt="java icon"
               />
             </li>
-            <li class="pr-10">
+            <li class="pr-10 w-32 h-32">
               <Image 
                 src="/icons/firebase.png"
                 width="75"
@@ -83,7 +83,7 @@ function AboutMe() {
                 alt="firebase icon"
               />
             </li>
-            <li class="pr-10">
+            <li class="pr-10 w-48 h-32">
               <Image 
                 src="/icons/flutter.png"
                 width="170"
@@ -92,7 +92,9 @@ function AboutMe() {
                 quality='100'
               />
             </li>
-            <li class="pr-10">
+          </ul>
+          <ul class="flex flex-col md:flex-row items-center pb-10 justify-between">
+            <li class="pr-10 w-32 h-32">
               <Image 
                 src="/icons/graphql.png"
                 width="80"
@@ -100,7 +102,7 @@ function AboutMe() {
                 alt="graphql icon"
               />
             </li>
-            <li class="pr-10">
+            <li class="pr-10 w-32 h-32">
               <Image 
                 src="/icons/Js.png"
                 width="80"
@@ -108,23 +110,15 @@ function AboutMe() {
                 alt="javascript icon"
               />
             </li>
-            <li class="pr-10">
+            <li class="pr-10 w-52 h-32">
               <Image 
                 src="/icons/react.png"
-                width="80"
-                height="80"
+                width="130"
+                height="90"
                 alt="react icon"
               />
             </li>
-            <li class="pr-10">
-              <Image 
-                src="/icons/react-native.png"
-                width="80"
-                height="80"
-                alt="react native icon"
-              />
-            </li>
-            <li class="pr-0"> 
+            <li class="pr-10 w-36 h-32"> 
               <Image 
                 src="/icons/tailwind.png"
                 width="80"
@@ -132,7 +126,26 @@ function AboutMe() {
                 alt="tailwind css icon"
               />
             </li>
+            <li class="pr-0 w-36 h-32"> 
+              <Image 
+                src="/icons/Go.png"
+                width="80"
+                height="80"
+                alt="golang css icon"
+              />
+            </li>
           </ul>
+          <ul class="flex flex-col md:flex-row items-center pb-10 justify-around">
+            
+            <li class="pr-10 w-32 h-24"> 
+              <Image 
+                src="/icons/swiftui-og.png"
+                width="80"
+                height="80"
+                alt="swiftUI css icon"
+              />
+            </li>
+          </ul> 
         </div>
       </div>
     </section>

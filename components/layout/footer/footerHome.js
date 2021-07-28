@@ -7,7 +7,7 @@ import Link from 'next/link';
 function FooterHome() {
   return(
     // eslint-disable-next-line react/react-in-jsx-scope
-    <footer class="px-6 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 flex flex-col md:flex-row justify-between items-center border-t-2 relative md:fixed bg-gray-100 inset-x-0 bottom-0">
+    <footer class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 flex flex-col md:flex-row justify-between items-center border-t-2 relative md:fixed bg-gray-100 inset-x-0 bottom-0">
       <div class="flex">
         <div>
           <h1 class="font-primary font-semibold text-xs md:text-2xl">
@@ -86,7 +86,7 @@ function FooterHome() {
           </div>
         </div>
       </div>
-      <div class="font-primary flex flex-shrink-1">
+      <div class="font-primary flex flex-shrink-1 mt-4">
         <div>
           <h1 class="italic text-xs md:text-base font-medium">
             Disclaimer: All writings here are my own and do not represent anything.
