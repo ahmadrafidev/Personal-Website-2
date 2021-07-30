@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     return(
         <Layout>
             <Head>
-                <link rel="shortcut icon" href="/icons/mars.png"/>
+                <link rel="shortcut icon" href="/icons/startup.png"/>
                 <meta charSet="utf-8" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="viewport" content="width=device-width,initial-scale=1" />

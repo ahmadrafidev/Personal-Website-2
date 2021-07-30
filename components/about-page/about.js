@@ -135,8 +135,7 @@ function AboutMe() {
               />
             </li>
           </ul>
-          <ul class="flex flex-col md:flex-row items-center pb-10 justify-around">
-            
+          <ul class="flex flex-col md:flex-row items-center pb-10 justify-around">    
             <li class="pr-10 w-32 h-24"> 
               <Image 
                 src="/icons/swiftui-og.png"
