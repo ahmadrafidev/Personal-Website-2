@@ -4,7 +4,7 @@
 
 function Portfolio() {
   return(
-    <div class="flex px-6 md:px-20 lg:px-32 xl:px-60 2xl:px-80 my-80 md:my-80 text-2xl items-center uppercase justify-center font-secondary font-bold">
+    < div class = "flex min-h-screen px-6 md:px-20 lg:px-32 xl:px-60 2xl:px-80 text-2xl pt-36 md:pt-44 uppercase justify-center font-secondary font-bold bg-white dark:bg-gray-800" >
       <h1>The portfolio is not ready yet</h1>
     </div>
   );

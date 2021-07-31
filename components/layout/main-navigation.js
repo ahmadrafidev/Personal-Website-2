@@ -5,11 +5,43 @@ import Logo from './logo';
 
 import Link from 'next/link';
 import Image from 'next/image';
-
+import {useTheme} from 'next-themes';
+import {MoonIcon, SunIcon} from '@heroicons/react/solid';
+import {useState, useEffect} from 'react';
 
 function MainNavigation() {
+  const {systemTheme, theme, setTheme} = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  
+  const renderThemeChanger = () => {
+    if(!mounted) return null;
+    const currentTheme = theme === 'system' ? systemTheme : theme;
+
+    if(currentTheme === 'light'){
+      return (
+        <MoonIcon 
+          className="w-7 h-7" 
+          role="button" 
+          onClick={() => setTheme('dark')} />
+      );
+    }
+    else {
+      return (
+        <SunIcon 
+        className="w-7 h-7" 
+        role="button" 
+        onClick={() => setTheme
+          ('light')} />
+      );
+    }
+  };
+
   return(
-    <header class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex items-center border-b-2 mx-auto bg-gray-100">
+    <header class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex items-center border-b-2 mx-auto bg-gray-100 dark:bg-gray-800">
       <div>
         <Link href='/'>
           <a >
@@ -76,11 +108,14 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
+            <li class='px-2 transform hover:scale-125 dark:bg-gray-700'>
+              {renderThemeChanger()}
+            </li>
           </ul>
         </nav>
       </div>
     </header>
   );
-}
+};
 
 export default MainNavigation;

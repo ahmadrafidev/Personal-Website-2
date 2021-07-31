@@ -12,7 +12,7 @@ const BlueLink = styled.a `
 function AboutMe() {
   return(
     <section>
-      <div class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 mb-auto font-secondary overflow-auto md:overflow-y-scroll">
+      <div class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 mb-auto font-secondary overflow-auto md:overflow-y-scroll bg-white dark:bg-gray-800">
         <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-7">
           <h1>
             About Me
