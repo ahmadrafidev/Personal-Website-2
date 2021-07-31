@@ -41,7 +41,7 @@ function MainNavigation() {
   };
 
   return(
-    <header class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex items-center border-b-2 mx-auto bg-gray-100 dark:bg-gray-800">
+    <header class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex items-center mx-auto bg-gray-100 dark:bg-primary">
       <div>
         <Link href='/'>
           <a >
@@ -108,7 +108,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class='px-2 transform hover:scale-125 dark:bg-gray-700'>
+            <li class='px-2 transform hover:scale-125'>
               {renderThemeChanger()}
             </li>
           </ul>
