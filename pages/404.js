@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unknown-property */
 import FooterHome from '../components/layout/footer/footerHome';
-import Link from 'next/link';
 import styled from 'styled-components';
 
 const BlueLink = styled.a `
@@ -15,9 +14,7 @@ function NotFoundPage() {
         <h1>Page Not Found :(</h1>
         <div class="transform hover:scale-105">
           <p>
-            <Link passHref href="/">
-              <BlueLink href="/">Back to Home</BlueLink>
-            </Link>
+            <BlueLink href="/">Back to Home</BlueLink>
           </p>
         </div>
       </div>
