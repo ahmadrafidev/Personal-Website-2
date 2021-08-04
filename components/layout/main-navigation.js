@@ -52,7 +52,7 @@ function MainNavigation() {
       <div class="font-semibold text-lg sm:text-xl md:text-2xl font-primary"> 
         <nav> 
           <ul class="flex justify-center items-center">
-            <li class="px-2 md:px-8 hover:underline transform hover:scale-110">
+            <li class="px-2 md:px-6 hover:underline transform hover:scale-110">
               <Link href='/'>
                 <a>
                   <Image 
@@ -66,7 +66,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="px-2 md:px-8 hover:underline transform hover:scale-110">
+            <li class="px-2 md:px-6 hover:underline transform hover:scale-110">
               <Link href='/posts'>
                 <a>
                   <Image 
@@ -80,7 +80,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="px-2 md:px-8 hover:underline transform hover:scale-110">
+            <li class="px-2 md:px-6 hover:underline transform hover:scale-110">
               <Link href='/portfolio'>
                 <a>
                   <Image 
@@ -94,7 +94,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="px-2 hover:underline transform hover:scale-110">
+            <li class="px-2 md:px-6 hover:underline transform hover:scale-110">
               <Link href='/about'>
                 <a>
                   <Image 
@@ -108,7 +108,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class='px-2 transform hover:scale-125'>
+            <li class='pl-2 transform hover:scale-125'>
               {renderThemeChanger()}
             </li>
           </ul>
