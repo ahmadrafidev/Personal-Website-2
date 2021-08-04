@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
                 <Component {...pageProps }/>
             </Layout>
         </ThemeProvider> 
-); 
+    ); 
 }
 
 export default MyApp;

@@ -2,10 +2,11 @@
 import Head from 'next/head';
 import {Fragment} from 'react';
 
-import Blog from '../components/blog-page/blog-page';
-import FooterHome from '../components/layout/footer/footerHome';
+import FooterHome from '../../components/layout/footer/footerHome';
+import AllPosts from '../../components/posts/all-posts';
+import {getAllPosts} from '../../lib/post-util';
 
-function BlogPage() {
+function BlogPage(props) {
   return (
     <Fragment>
       <Head>
@@ -15,10 +16,20 @@ function BlogPage() {
           content='A website about my portfolio'
         />
       </Head>
-      <Blog />  
+      <AllPosts posts={props.posts}/>
       <FooterHome />
     </Fragment>
   );
+}
+
+export function getStaticProps() {
+  const allPosts = getAllPosts();
+  
+  return {
+    props: {
+      posts: allPosts,
+    },
+  };
 }
 
 export default BlogPage;
