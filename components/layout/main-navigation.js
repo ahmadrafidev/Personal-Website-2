@@ -41,7 +41,7 @@ function MainNavigation() {
   };
 
   return(
-    <header class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex items-center mx-auto bg-gray-100 dark:bg-primary">
+    <header class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex-column sm:flex items-center mx-auto bg-gray-100 dark:bg-primary">
       <div>
         <Link href='/'>
           <a >
@@ -52,7 +52,7 @@ function MainNavigation() {
       <div class="font-semibold text-lg sm:text-xl md:text-2xl font-primary"> 
         <nav> 
           <ul class="flex justify-center items-center">
-            <li class="px-3 hover:underline transform hover:scale-110">
+            <li class="px-px sm:px-3 hover:underline transform hover:scale-110">
               <Link href='/'>
                 <a>
                   <Image 
@@ -66,7 +66,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="px-3 hover:underline transform hover:scale-110">
+            <li class="px-px sm:px-3 hover:underline transform hover:scale-110">
               <Link href='/posts'>
                 <a>
                   <Image 
@@ -80,7 +80,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="px-3 hover:underline transform hover:scale-110">
+            <li class="px-px sm:px-3 hover:underline transform hover:scale-110">
               <Link href='/portfolio'>
                 <a>
                   <Image 
@@ -94,7 +94,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class="px-3 hover:underline transform hover:scale-110">
+            <li class="px-px sm:px-3 hover:underline transform hover:scale-110">
               <Link href='/about'>
                 <a>
                   <Image 
