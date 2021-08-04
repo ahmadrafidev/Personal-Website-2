@@ -19,7 +19,7 @@ function PostContent(props) {
   return (
     <article class = "px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 pt-10 md:pt-14">
       <PostHeader title={post.title} author={post.author}/>
-      <div class="text-xl sm:text-2xl md:text-3xl text-justify leading-loose font-secondary my-32 md:my-40">
+      <div class="text-lg sm:text-xl md:text-2xl text-justify leading-loose font-secondary my-32 md:my-40">
         <ReactMarkdown components={customRenderers} >
           {post.content}
         </ReactMarkdown>
