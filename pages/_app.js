@@ -10,7 +10,7 @@ import {ThemeProvider} from 'next-themes';
 
 function MyApp({ Component, pageProps }) {
     return(
-        <ThemeProvider enableSystem={true} attribute="class" enableColorScheme={true} themes={['pink', 'red', 'blue', 'light', 'dark']}>
+        <ThemeProvider enableSystem={true} attribute="class" enableColorScheme={true}>
             <Layout>
                 <Head>
                     <link rel="shortcut icon" href="/icons/startup.png"/>

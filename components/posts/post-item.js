@@ -20,7 +20,7 @@ function PostItem(props) {
     <li class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 flex text-left font-primary my-10">
       <div>
         <Link href={linkPath} passHref>
-          <BlueLink> <h1 class="font-bold text-xl md:text-3xl">{title}</h1> </BlueLink>
+          <BlueLink> <h1 class="font-bold text-xl md:text-3xl pb-3">{title}</h1> </BlueLink>
         </Link>
         <p class="font-medium text-lg">{excerpt}.</p>
         <p class="text-lg md:text-xl"> by {author} - <time>{formattedDate}</time> </p>
