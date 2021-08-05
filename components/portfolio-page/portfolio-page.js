@@ -26,7 +26,7 @@ function Portfolio() {
                   class="absolute rounded-2xl inset-0 object-cover object-center"
                   src={project.image}
                 />
-                <div class="px-2 md:px-10 py-3 sm:py-6 md:py-8 lg:py-10 xl:py-12 2xl:py-20 inset-0 object-cover object-center relative rounded-2xl border-4 text-center border-gray-800 bg-gray-900 dark:bg-gray-100 opacity-0 hover:opacity-100">
+                <div class="px-2 md:px-10 py-3 sm:py-5 md:py-6 lg:py-8 xl:py-12 2xl:py-20 inset-0 object-cover object-center relative rounded-2xl border-4 text-center border-gray-800 bg-gray-900 dark:bg-gray-100 opacity-0 hover:opacity-100">
                   <h1 class=" text-base sm:text-2xl md:text-3xl font-bold font-secondary text-white dark:text-black mb-4">
                     {project.title}
                   </h1>
