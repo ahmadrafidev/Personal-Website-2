@@ -21,8 +21,8 @@ function Profile() {
             <h1>Hi, I am Rafi!</h1>
               <Image 
                 src="/icons/peace.png"
-                height="45"
-                width="45"
+                height="55"
+                width="55"
                 alt="peace icon"
               />
           </div>
