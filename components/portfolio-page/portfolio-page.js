@@ -26,14 +26,14 @@ function Portfolio() {
                   class="absolute rounded-2xl inset-0 object-cover object-center"
                   src={project.image}
                 />
-                <div class="px-2 md:px-10 py-4 sm:py-8 md:py-20 inset-0 object-cover object-center relative rounded-2xl border-4 text-center border-gray-800 bg-gray-900 dark:bg-gray-100 opacity-0 hover:opacity-100">
-                  <h1 className=" text-xl sm:text-2xl md:text-3xl font-bold font-secondary text-white dark:text-black mb-4">
+                <div class="px-2 md:px-10 py-3 sm:py-6 md:py-10 lg:py-20 inset-0 object-cover object-center relative rounded-2xl border-4 text-center border-gray-800 bg-gray-900 dark:bg-gray-100 opacity-0 hover:opacity-100">
+                  <h1 class=" text-base sm:text-2xl md:text-3xl font-bold font-secondary text-white dark:text-black mb-4">
                     {project.title}
                   </h1>
-                  <h2 class="tracking-widest text-base sm:text-lg md:text-xl font-semibold font-secondary text-blue-400 dark:text-blue-600 pb-4">
+                  <h2 class="tracking-widest text-sm sm:text-lg md:text-xl font-semibold font-secondary text-blue-400 dark:text-blue-600 pb-4">
                     {project.excerpt}
                   </h2>
-                  <p class="font-semibold text-lg sm:text-xl md:text-2xl font-secondary text-white dark:text-black">{project.techStack}</p>
+                  <p class="font-semibold text-base sm:text-xl md:text-2xl font-secondary text-white dark:text-black">{project.techStack}</p>
                 </div>
               </div>
             </a>
