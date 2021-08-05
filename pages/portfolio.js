@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import Portfolio from '../components/portfolio-page/portfolio-page';
 import {Fragment} from 'react';
-import FooterHome from '../components/layout/footer/footerHome';
+import Footer from '../components/layout/footer/footer';
 
 function PortfolioPage() {
   return (
@@ -15,7 +15,7 @@ function PortfolioPage() {
         />
       </Head>
       <Portfolio />
-      <FooterHome/>
+      <Footer/>
     </Fragment>
   );
 }
