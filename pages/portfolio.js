@@ -11,7 +11,7 @@ function PortfolioPage() {
         <title>A blog by Ahmad Rafi</title>
         <meta 
           name='description'
-          content='A website about my portfolio'
+          content='A stories from Rafi that are packaged in the form of a website'
         />
       </Head>
       <Portfolio />
