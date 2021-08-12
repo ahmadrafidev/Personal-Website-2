@@ -88,11 +88,8 @@ function FooterHome() {
       </div>
       <div class="font-primary flex flex-shrink-1 mt-4">
         <div>
-          <h1 class="italic text-xs md:text-base font-medium">
-            Disclaimer: All writings here are my own and do not represent anything.
-          </h1>
-          <p class="text-xs md:text-base font-medium">
-            (c) 2021 by Ahmad Rafi Wirana. All Rights Reserved.
+          <p class="text-xs md:text-xl font-bold">
+            (c) 2021 - Ahmad Rafi Wirana. 
           </p>
         </div>
       </div>  
