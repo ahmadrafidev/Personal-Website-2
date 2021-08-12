@@ -26,8 +26,8 @@ function Profile() {
                 alt="peace icon"
               />
           </div>
-          <div class="leading-loose">
-            <div class="flex">
+          <div class="leading-loose text-base sm:text-lg md:text-2xl">
+            <div class="flex leading-loose">
               <p>
                 I am a sophomore Computer Science student at University of Indonesia.
               </p>
@@ -39,7 +39,7 @@ function Profile() {
                 quality='100'
               />
             </div>
-            <div class="flex">
+            <div class="flex leading-loose">
               <p>
                 Currently, I am working on some side projects like website and mobile apps.  
               </p>
@@ -51,33 +51,28 @@ function Profile() {
                 quality='100'
               />
             </div>
-            <div class="flex">
-              <p>
-                I am here to write story about my life in college.
+            <div class="flex leading-loose">
+              <p>I write. My Writings: &nbsp;
+                <Link href="/posts" passHref>
+                  <a class="font-bold"><BlueLink href="/posts">Blog.</BlueLink></a>
+                </Link>
               </p>
-              <Image 
-                src="/icons/college.png" 
-                width='35' 
-                height='35' 
-                alt='college picture'
-                quality='100'
-              />
-            </div>       
-            <p>
-              <Link href="/posts" passHref>
-                <BlueLink href="/posts">My writings</BlueLink>
-              </Link>
-            </p>
-            <p>
-              <Link href="/portfolio" passHref>
-                <BlueLink href="/portflio">My portfolios</BlueLink>
-              </Link>
-            </p>
-            <p>
-              <Link href="/about" passHref>
-                <BlueLink href="/about">About Me</BlueLink>
-              </Link>
-            </p>
+            </div>
+            <div class="flex leading-loose">
+              <p> I code. My portfolio: &nbsp;
+                <Link href="/portfolio" passHref>
+                  <a class="font-bold"><BlueLink href="/portflio">Projects.</BlueLink></a>
+                </Link>
+              </p>
+            </div>
+            <div class="flex leading-loose">
+              <p>
+                Interested find more about me? &nbsp;
+                <Link href="/about" passHref>
+                  <a class="font-bold"><BlueLink href="/about">About Me.</BlueLink></a>
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
       </div>
