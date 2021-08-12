@@ -9,7 +9,7 @@ function AboutPage() {
   return (
     <Fragment>
       <Head>
-        <title>Ahmad Rafi W.</title>
+        <title>About - Ahmad Rafi W.</title>
         <meta 
           name='description'
           content='A stories from Rafi that are packaged in the form of a website'
