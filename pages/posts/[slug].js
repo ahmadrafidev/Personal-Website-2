@@ -9,7 +9,7 @@ function PostDetailPage(props) {
   return (
     <Fragment>
       <Head>
-        <title>A blog by Ahmad Rafi</title>
+        <title>{props.post.title}</title>
         <meta name='description' content={props.post.excerpt} />
       </Head>
       <PostContent post={props.post} />

@@ -1,5 +1,5 @@
 ---
-title: "On Failure!"
+title: "Perspective: On Failure!"
 excerpt: "My thought about getting failure"
 date: '2021-08-04'
 author: Ahmad Rafi

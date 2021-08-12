@@ -75,7 +75,7 @@ function Profile() {
             </p>
             <p>
               <Link href="/about" passHref>
-                <BlueLink href="/about">More info about me...</BlueLink>
+                <BlueLink href="/about">About Me</BlueLink>
               </Link>
             </p>
           </div>
