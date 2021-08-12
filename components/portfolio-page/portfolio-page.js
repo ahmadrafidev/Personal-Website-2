@@ -10,7 +10,7 @@ function Portfolio() {
     <section id="projects" class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 min-h-screen pt-6 md:pt-14 pb-6 md:pb-14 bg-white dark:bg-secondary font-secondary">
       <div class="container mx-auto">
         <div class="flex mb-10">
-          <h1 class="text-2xl sm:text3xl md:text-6xl font-bold font-primary title-font mb-4 uppercase">
+          <h1 class="text-2xl sm:text3xl md:text-7xl font-bold font-primary title-font mb-4 uppercase">
             Projects.
           </h1>
         </div>

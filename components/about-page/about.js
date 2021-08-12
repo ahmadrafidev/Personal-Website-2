@@ -79,7 +79,7 @@ function AboutMe() {
               <Image 
                 src="/icons/firebase.png"
                 width="75"
-                height="100"
+                height="80"
                 alt="firebase icon"
               />
             </li>
@@ -120,9 +120,9 @@ function AboutMe() {
             </li>
             <li class="pr-10 w-36 h-32"> 
               <Image 
-                src="/icons/tailwind.png"
-                width="80"
-                height="80"
+                src="/icons/tailwind-css.png"
+                width="85"
+                height="60"
                 alt="tailwind css icon"
               />
             </li>
@@ -138,10 +138,26 @@ function AboutMe() {
           <ul class="flex flex-col md:flex-row items-center pb-10 justify-around">    
             <li class="pr-10 w-32 h-24"> 
               <Image 
-                src="/icons/swiftui-og.png"
+                src="/icons/swift.png"
                 width="80"
                 height="80"
-                alt="swiftUI css icon"
+                alt="swiftUI icon"
+              />
+            </li>
+            <li class="pr-10 w-32 h-24"> 
+              <Image 
+                src="/icons/Kotlin.png"
+                width="80"
+                height="80"
+                alt="Kotlin icon"
+              />
+            </li>
+            <li class="pr-10 w-32 h-24"> 
+              <Image 
+                src="/icons/postgresql.png"
+                width="80"
+                height="80"
+                alt="Postgresql icon"
               />
             </li>
           </ul> 
