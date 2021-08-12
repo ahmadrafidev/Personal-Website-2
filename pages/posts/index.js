@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import {Fragment} from 'react';
 
-import FooterHome from '../../components/layout/footer/footerHome';
+import Footer from '../../components/layout/footer/footer';
 import AllPosts from '../../components/posts/all-posts';
 import {getAllPosts} from '../../lib/post-util';
 
@@ -17,7 +17,7 @@ function BlogPage(props) {
         />
       </Head>
       <AllPosts posts={props.posts}/>
-      <FooterHome />
+      <Footer />
     </Fragment>
   );
 }

@@ -3,7 +3,7 @@
 import {Fragment} from 'react';
 import Head from 'next/head';
 import Profile from '../components/home-page/profile';
-import FooterHome from '../components/layout/footer/footerHome';
+import Footer from '../components/layout/footer/footer';
 
 function HomePage(props) {
   return (
@@ -16,7 +16,7 @@ function HomePage(props) {
         />
       </Head>
       <Profile />
-      <FooterHome/>
+      <Footer/>
     </Fragment>
   );
 }
