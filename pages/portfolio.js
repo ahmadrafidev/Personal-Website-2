@@ -8,7 +8,7 @@ function PortfolioPage() {
   return (
     <Fragment>
       <Head>
-        <title>Ahmad Rafi W.</title>
+        <title>Ahmad Rafi W. | Portfolio </title>
         <meta 
           name='description'
           content='A stories from Rafi that are packaged in the form of a website'

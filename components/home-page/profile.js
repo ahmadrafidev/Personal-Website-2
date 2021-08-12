@@ -6,9 +6,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styled from 'styled-components';
 
-
-
-
 const BlueLink = styled.a `
   color: blue;
 `
@@ -66,10 +63,10 @@ function Profile() {
             </div>
             <div class="mt-6">
               <div class="flex leading-loose uppercase font-extrabold text-xl md:text-4xl mb-5">
-                <p>Why I made this website</p>
+                <p>the reason i made this website</p>
               </div>
               <div class="flex leading-loose">
-                <p> I code. See what I've done: &nbsp;
+                <p>I code. See what I've done: &nbsp;
                   <Link href="/portfolio" passHref>
                     <a class="font-bold hover:underline">
                       <BlueLink href="/portflio">Projects.</BlueLink>
