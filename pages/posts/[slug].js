@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { Fragment } from 'react';
 
 import PostContent from '../../components/posts/post-detail/post-content';
-import Footer from '../../components/layout/footer/footer';
+import Footer from '../../components/layout/footer';
 import { getPostData, getPostsFiles } from '../../lib/post-util';
 
 function PostDetailPage(props) {

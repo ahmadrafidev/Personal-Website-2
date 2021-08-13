@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unknown-property */
-import FooterHome from '../components/layout/footer/footerHome';
+import Footer from '../components/layout/footer';
 import styled from 'styled-components';
 
 const BlueLink = styled.a `
@@ -18,7 +18,7 @@ function NotFoundPage() {
           </p>
         </div>
       </div>
-      <FooterHome/>
+      <Footer/>
     </>
   );
 }

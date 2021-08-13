@@ -32,6 +32,7 @@ function MainNavigation() {
     else {
       return (
         <SunIcon 
+        color="black"
         className="w-7 h-7" 
         role="button" 
         onClick={() => setTheme
@@ -108,7 +109,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </li>
-            <li class='pl-2 transform hover:scale-125'>
+            <li class='pl-2 transform hover:scale-125 rounded-full h-8 w-11 justify-center bg-gray-300 dark:bg-gray-300'>
               {renderThemeChanger()}
             </li>
           </ul>

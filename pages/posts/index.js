@@ -2,7 +2,7 @@
 import Head from 'next/head';
 import {Fragment} from 'react';
 
-import Footer from '../../components/layout/footer/footer';
+import Footer from '../../components/layout/footer';
 import AllPosts from '../../components/posts/all-posts';
 import {getAllPosts} from '../../lib/post-util';
 
