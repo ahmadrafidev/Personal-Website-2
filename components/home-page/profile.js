@@ -44,8 +44,8 @@ function Profile() {
               <div>
                 <Image 
                   src="/icons/indonesia.png" 
-                  width='35' 
-                  height='35' 
+                  width='45' 
+                  height='45' 
                   alt='indonesia picture'
                   quality='100'
                 />
@@ -58,8 +58,8 @@ function Profile() {
               <div>
                 <Image 
                   src="/icons/smartphone.png" 
-                  width='40' 
-                  height='40' 
+                  width='45' 
+                  height='45' 
                   alt='smartphone picture'
                   quality='100'
                 />
