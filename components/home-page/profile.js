@@ -73,7 +73,7 @@ function Profile() {
                 <p class="text-sm sm:text-base md:text-xl lg:text-2xl">I code. See what I've done: &nbsp;
                   <Link href="/portfolio" passHref>
                     <a class="font-bold hover:underline">
-                      <BlueLink href="/portflio">Projects.</BlueLink>
+                      <BlueLink href="/portfolio">Projects.</BlueLink>
                     </a>
                   </Link>
                 </p>
