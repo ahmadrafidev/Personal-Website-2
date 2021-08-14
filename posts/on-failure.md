@@ -12,3 +12,4 @@ There are many questions I’ve always ask to myself. Am I not good enough? Am I
 Then I rest. Closing my eyes and trying not to open it again. But I can’t. My inner thought always thinking about a happy ending even though I don’t know what kind of happy ending is. I just follow order from my inner thought to always survive no matter what hard reality hits my face.In the time of desperation, in the edge of life itself, I can’t help myself not to thinking about happy ending. I’m choosing to always dream big. But to dream big I have to sacrifice more. I have to sacrifice more failures. In the life of uncertainty, there is always an option. In my experience of rejection there are two options: to always be miserable and crying all night long thinking about failure or to get up and chasing another dream big. I choose the latter.
 
 *Disclaimer: Everything I post here is my own and don't represent anything.*
+Peace out
