@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/react-in-jsx-scope */
@@ -13,11 +14,14 @@ const BlueLink = styled.a `
 function Profile() {
   return(
     <section>
-      <div class="flex min-h-screen px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 pt-20 md:pt-24 justify-between bg-white dark:bg-secondary">
+      <div class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 pt-11 md:pt-12 flex justify-center object-contain bg-white dark:bg-secondary">
+        <img src="/images/foto.png" alt="its me" class="w-3/6 md:w-2/6" />
+      </div>
+      <div class="flex min-h-screen px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 pt-9 md:pt-10 justify-between bg-white dark:bg-secondary">
         <div class="min-w-0 font-secondary text-justify text-sm md:text-xl overflow-auto">
           <div class="font-extrabold text-2xl md:text-7xl flex mb-5">
             <h1>Hello!</h1>
-            <div class="min-w-0 flex">
+            <div class="min-w-0 flex animate-spin px-4 ease-out">
               <Image 
                 src="/icons/peace.png"
                 height="60"
@@ -26,11 +30,11 @@ function Profile() {
               />
             </div>     
           </div>
-          <div class="uppercase font-extrabold text-xl sm:text-2xl md:text-3xl lg:text-5xl flex-col md:flex mb-2">
+          <div class="uppercase font-bold text-xl sm:text-2xl md:text-3xl lg:text-5xl flex-col md:flex mb-2">
             <h2 class="mb-6">I'm Rafi, &nbsp;</h2>
             <Link passHref href="https://en.wikipedia.org/wiki/Software_engineer">
               <BlueLink>
-                <p class="animate-bounce text-red-500 mb-5 transform hover:underline">
+                <p class="animate-bounce bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-blue-600 mb-5">
                   An aspiring Software Engineer!
                 </p>
               </BlueLink>
@@ -53,7 +57,7 @@ function Profile() {
             </div>
             <div class="flex leading-loose">
               <p class="text-sm sm:text-base md:text-xl lg:text-2xl">
-                Currently, I am working on some side projects like website and mobile apps.  
+                I love to working on some side projects like website and mobile apps.  
               </p>
               <div>
                 <Image 
@@ -69,7 +73,7 @@ function Profile() {
               <div class="flex leading-loose uppercase font-extrabold text-xl md:text-4xl mb-5">
                 <p>the reason i made this website</p>
               </div>
-              <div class="flex mb-3">
+              <div class="flex mb-5">
                 <p class="text-sm sm:text-base md:text-xl lg:text-2xl">I code. See what I've done: &nbsp;
                   <Link href="/portfolio" passHref>
                     <a class="font-bold hover:underline">
@@ -78,7 +82,7 @@ function Profile() {
                   </Link>
                 </p>
               </div>
-              <div class="flex leading-loose mb-3">
+              <div class="flex leading-loose mb-5">
                 <p class="text-sm sm:text-base md:text-xl lg:text-2xl">I write. Checkout my writings: &nbsp;
                   <Link href="/posts" passHref>
                     <a class="font-bold hover:underline">
@@ -87,7 +91,6 @@ function Profile() {
                   </Link>
                 </p>
               </div>
-              
               <div class="flex">
                 <p class="text-sm sm:text-base md:text-xl lg:text-2xl">
                   Interested find more about me? Check this out: &nbsp;
