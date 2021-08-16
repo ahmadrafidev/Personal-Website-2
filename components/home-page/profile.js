@@ -6,6 +6,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import styled from 'styled-components';
+import Typewriter from 'typewriter-effect';
 
 const BlueLink = styled.a `
   color: blue;
@@ -32,13 +33,21 @@ function Profile() {
           </div>
           <div class="uppercase font-bold text-xl sm:text-2xl md:text-3xl lg:text-5xl flex-col md:flex mb-2">
             <h2 class="mb-6">I'm Rafi, &nbsp;</h2>
-            <Link passHref href="https://en.wikipedia.org/wiki/Software_engineer">
-              <BlueLink>
-                <p class="animate-bounce bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-blue-600 mb-5">
-                  An aspiring Software Engineer!
-                </p>
-              </BlueLink>
-            </Link>
+            <p class="animate-bounce bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-blue-600 mb-5">
+              <Typewriter     
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  delay: 40,
+                  strings: [
+                    "An aspiring software engineer!",
+                    "A life-long learner!",
+                    "A Tech Enthusiast!",
+                    "A Computer Science Student",
+                  ]
+                }}
+              />
+            </p>
           </div>
           <div class="leading-loose text-base sm:text-lg md:text-2xl">
             <div class="flex leading-loose">
