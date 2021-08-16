@@ -25,8 +25,8 @@ function Profile() {
             <div class="min-w-0 flex px-4 ease-out">
               <Image 
                 src="/icons/peace.png"
-                height="55"
-                width="55"
+                height="50"
+                width="67"
                 alt="peace icon"
               />
             </div>     
