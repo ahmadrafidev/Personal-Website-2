@@ -117,7 +117,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </motion.li>
-            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class='pl-2 transform hover:scale-125 rounded-full h-8 w-11 justify-center bg-gray-300 dark:bg-gray-300 hover:underline'>
+            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class='pl-2 transform hover:scale-125 rounded-full h-8 w-11 justify-center bg-gray-300 dark:bg-gray-300'>
               {renderThemeChanger()}
             </motion.li>
           </ul>
