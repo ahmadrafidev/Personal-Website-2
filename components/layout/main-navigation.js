@@ -103,7 +103,7 @@ function MainNavigation() {
                 </a>
               </Link>
             </motion.li>
-            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-px sm:px-3 mr-2 transform hover:scale-110 dark:bg-primary">
+            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-px sm:px-3 mr-3 transform hover:scale-110 dark:bg-primary">
               <Link href='/about'>
                 <a>
                   <Image 
@@ -117,7 +117,11 @@ function MainNavigation() {
                 </a>
               </Link>
             </motion.li>
-            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class='pl-2 transform hover:scale-125 rounded-full h-8 w-11 justify-center bg-gray-300 dark:bg-gray-300'>
+            <motion.li 
+              whileHover={{scale: 1.2, boxShadow: "0px 0px 10px rgb(255,255,255)",}} 
+              whileTap={{scale: 0.9}} 
+              class='pl-2 transform hover:scale-125 rounded-full h-8 w-11 justify-center bg-gray-300 dark:bg-gray-300'
+            >
               {renderThemeChanger()}
             </motion.li>
           </ul>

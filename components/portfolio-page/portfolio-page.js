@@ -2,7 +2,7 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable react/no-unknown-property */
 
-
+import {motion} from 'framer-motion';
 import { projects } from './data';
 
 function Portfolio() {
@@ -14,7 +14,7 @@ function Portfolio() {
             Projects.
           </h1>
         </div>
-        <div class="flex flex-wrap w-1/2 -m-4 text-center">
+        <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} class="flex flex-wrap w-1/2 -m-4 text-center">
           {projects.map((project) => (
             <a
               href={project.link}
@@ -38,7 +38,7 @@ function Portfolio() {
               </div>
             </a>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

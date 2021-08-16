@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unknown-property */
 import Link from 'next/link';
 import styled from 'styled-components';
+import {motion} from 'framer-motion';
 
 const BlueLink = styled.a `
   color: blue;
@@ -20,12 +21,12 @@ function PostItem(props) {
     <li class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 flex text-left font-primary my-10">
       <div>
         <Link href={linkPath} passHref>
-          <BlueLink> <h1 class="font-bold text-xl md:text-3xl pb-3">{title}</h1> </BlueLink>
+          <BlueLink> <motion.h1 whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} class="font-bold text-xl md:text-3xl pb-3">{title}</motion.h1> </BlueLink>
         </Link>
         <p class="font-medium text-lg">{excerpt}.</p>
         <p class="text-lg md:text-xl"> by {author} - <time>{formattedDate}</time> </p>
         <Link href={linkPath} passHref>
-          <BlueLink><p class="text-lg md:text-2xl">Read More...</p> </BlueLink>
+          <BlueLink><p class="text-lg md:text-2xl hover:underline">Read More...</p> </BlueLink>
         </Link>
       </div>
     </li>
