@@ -8,6 +8,7 @@ import Image from 'next/image';
 import {useTheme} from 'next-themes';
 import {MoonIcon, SunIcon} from '@heroicons/react/solid';
 import {useState, useEffect} from 'react';
+import {motion} from 'framer-motion';
 
 function MainNavigation() {
   const {systemTheme, theme, setTheme} = useTheme();
@@ -40,7 +41,6 @@ function MainNavigation() {
       );
     }
   };
-
   return(
     <header class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex-column sm:flex items-center mx-auto bg-gray-100 dark:bg-primary">
       <div>
@@ -61,7 +61,7 @@ function MainNavigation() {
       <div class={`${isOpen? 'block': 'hidden'} flex flex-col sm:flex font-semibold text-lg sm:text-xl md:text-2xl font-primary pt-5 sm:pt-0`}> 
         <nav > 
           <ul class="flex justify-around items-center">
-            <li class="px-px sm:px-3 mr-2 hover:underline rounded-full bg-gray-100 hover:bg-white transform hover:scale-110 dark:bg-primary">
+            <motion.li class="px-px sm:px-3 mr-2 transform hover:scale-110 dark:bg-primary" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}>
               <Link href='/'>
                 <a>
                   <Image 
@@ -74,8 +74,8 @@ function MainNavigation() {
                   Home
                 </a>
               </Link>
-            </li>
-            <li class="px-px sm:px-3 mr-2 transform hover:scale-110 rounded-full bg-gray-100 hover:bg-white dark:bg-primary hover:underline">
+            </motion.li>
+            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-px sm:px-3 mr-2 transform hover:scale-110 dark:bg-primary">
               <Link href='/posts'>
                 <a>
                   <Image 
@@ -88,8 +88,8 @@ function MainNavigation() {
                   Blog
                 </a>
               </Link>
-            </li>
-            <li class="px-px sm:px-3 mr-2 rounded-full bg-gray-100 hover:bg-white transform hover:scale-110 dark:bg-primary hover:underline">
+            </motion.li>
+            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-px sm:px-3 mr-2 transform hover:scale-110 dark:bg-primary">
               <Link href='/portfolio'>
                 <a>
                   <Image 
@@ -102,8 +102,8 @@ function MainNavigation() {
                   Portfolio
                 </a>
               </Link>
-            </li>
-            <li class="px-px sm:px-3 mr-2 rounded-full bg-gray-100 hover:bg-white transform hover:scale-110 dark:bg-primary hover:underline">
+            </motion.li>
+            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-px sm:px-3 mr-2 transform hover:scale-110 dark:bg-primary">
               <Link href='/about'>
                 <a>
                   <Image 
@@ -116,10 +116,10 @@ function MainNavigation() {
                   About
                 </a>
               </Link>
-            </li>
-            <li class='pl-2 transform hover:scale-125 rounded-full h-8 w-11 justify-center bg-gray-300 dark:bg-gray-300 hover:underline'>
+            </motion.li>
+            <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class='pl-2 transform hover:scale-125 rounded-full h-8 w-11 justify-center bg-gray-300 dark:bg-gray-300 hover:underline'>
               {renderThemeChanger()}
-            </li>
+            </motion.li>
           </ul>
         </nav>
       </div>

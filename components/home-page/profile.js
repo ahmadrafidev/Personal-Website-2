@@ -22,11 +22,11 @@ function Profile() {
         <div class="min-w-0 font-secondary text-justify text-sm md:text-xl overflow-auto">
           <div class="font-extrabold text-2xl md:text-7xl flex mb-5">
             <h1>Hello!</h1>
-            <div class="min-w-0 flex animate-spin px-4 ease-out">
+            <div class="min-w-0 flex px-4 ease-out">
               <Image 
                 src="/icons/peace.png"
-                height="60"
-                width="60"
+                height="55"
+                width="55"
                 alt="peace icon"
               />
             </div>     

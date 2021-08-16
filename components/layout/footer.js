@@ -3,6 +3,8 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import {motion} from 'framer-motion';
+
 
 function Footer() {
   return(
@@ -16,7 +18,7 @@ function Footer() {
           <div>
             <nav>
               <ul class="flex mt-5">
-                <li class="pr-4 transform hover:scale-125">
+                <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="pr-4 transform hover:scale-125">
                   <Link passHref href="https://instagram.com/ahhmadrafi">
                     <a>
                       <Image 
@@ -28,8 +30,8 @@ function Footer() {
                       />
                     </a>
                   </Link>
-                </li>
-                <li class="px-4 hover:scale-125 transform">
+                </motion.li>
+                <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-4 hover:scale-125 transform">
                   <Link href="https://twitter.com/ahmadrafidev" passHref>
                     <a>
                       <Image 
@@ -41,8 +43,8 @@ function Footer() {
                       />
                     </a>
                   </Link>
-                </li>
-                <li class="px-4 hover:scale-125 transform">
+                </motion.li>
+                <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-4 hover:scale-125 transform">
                   <Link passHref href="https://ahmadrafi.medium.com/">
                     <a> 
                       <Image 
@@ -54,8 +56,8 @@ function Footer() {
                       />
                     </a>   
                   </Link>
-                </li>
-                <li class="px-4 hover:scale-125 transform">
+                </motion.li>
+                <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-4 hover:scale-125 transform">
                   <Link passHref href="https://www.linkedin.com/in/ahmadrafiwirana/">
                     <a>
                       <Image 
@@ -67,8 +69,8 @@ function Footer() {
                       />
                     </a>
                   </Link>
-                </li>
-                <li class="px-4 hover:scale-125 transform">
+                </motion.li>
+                <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-4 hover:scale-125 transform">
                   <Link passHref href="https://github.com/ahmadrafidev">
                     <a>
                       <Image 
@@ -80,7 +82,7 @@ function Footer() {
                       />
                     </a>
                   </Link>    
-                </li>
+                </motion.li>
               </ul>
             </nav>
           </div>
