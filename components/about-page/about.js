@@ -26,7 +26,7 @@ function AboutMe() {
             Other than college, I usually do some side projects
             including website development and mobile development.
             My projects cleanly arranged in <Link passHref href="/portfolio"><BlueLink href="/portfolio">portfolio page</BlueLink></Link>.
-            Reach me out on email: <BlueLink><a href="mailto:ahmadrafi9910@gmail.com">send email.</a></BlueLink>
+            Reach me out on email: <BlueLink><a href="mailto:me@ahmadrafi.dev">send email.</a></BlueLink>
           </p>
         </div>
         <div class="uppercase text-center text-xl md:text-3xl font-semibold mt-16 mb-7">
