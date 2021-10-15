@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^1.6.9",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
     "@heroicons/react": "^1.0.3",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "framer-motion": "^4.1.17",
@@ -22,11 +25,11 @@
     "typewriter-effect": "^2.18.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.3.7",
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.0",
-    "postcss": "^8.3.6",
-    "tailwindcss": "^2.2.6",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16",
     "yarn-upgrade-all": "^0.5.4"
   }
 }
