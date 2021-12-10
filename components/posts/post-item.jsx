@@ -18,7 +18,7 @@ function PostItem(props) {
   const linkPath = `/posts/${slug}`;
 
   return (
-    <li class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 flex text-left font-primary my-10">
+    <li class="px-2 md:px-20 lg:px-48 xl:px-60 2xl:px-96 flex text-left font-primary my-10">
       <div>
         <Link href={linkPath} passHref>
           <BlueLink> <motion.h1 whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} class="font-bold text-xl md:text-3xl pb-3">{title}</motion.h1> </BlueLink>
