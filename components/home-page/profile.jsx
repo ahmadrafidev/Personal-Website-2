@@ -17,11 +17,11 @@ function Profile() {
   return(
     <section>
       <div class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 pt-11 md:pt-12 flex justify-center object-contain bg-white dark:bg-secondary">
-        <motion.img whileHover={{boxShadow: "0px 0px 42px #0dd9e9"}} src="/images/foto.png" alt="its me" class="w-3/6 md:w-2/6 rounded-full" />
+        <motion.img whileHover={{boxShadow: "0px 0px 42px #0dd9e9"}} src="/images/foto.png" alt="its me" class="w-2/12 md:w-3/12 rounded-full" />
       </div>
-      <div class="flex min-h-screen px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 pt-9 md:pt-10 justify-between bg-white dark:bg-secondary">
+      <div class="flex min-h-screen px-4 md:px-20 lg:px-48 xl:px-60 2xl:px-96 pt-9 md:pt-10 justify-between bg-white dark:bg-secondary">
         <div class="min-w-0 font-secondary text-justify text-sm md:text-xl overflow-auto">
-          <div class="font-extrabold text-2xl md:text-7xl flex mb-5">
+          <div class="font-semibold text-2xl md:text-7xl flex mb-5">
             <h1>Hello!</h1>
             <div class="min-w-0 flex px-4 ease-out">
               <Image 

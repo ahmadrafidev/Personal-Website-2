@@ -42,7 +42,7 @@ function MainNavigation() {
     }
   };
   return(
-    <header class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex-column sm:flex items-center mx-auto bg-gray-100 dark:bg-primary">
+    <header class="px-6 md:px-20 lg:px-48 xl:px-60 2xl:px-96 py-2 sm:py-4 md:py-8 justify-start md:justify-between flex-column sm:flex items-center mx-auto bg-gray-100 dark:bg-primary">
       <div>
         <Link href='/'>
           <a >
@@ -58,19 +58,12 @@ function MainNavigation() {
           </svg>
         </button>
       </div>
-      <div class={`${isOpen? 'block': 'hidden'} flex flex-col sm:flex font-semibold text-lg sm:text-xl md:text-2xl font-primary pt-5 sm:pt-0`}> 
+      <div class={`${isOpen? 'block': 'hidden'} flex flex-col sm:flex font-semibold text-base sm:text-lg md:text-xl font-primary pt-5 sm:pt-0`}> 
         <nav > 
           <ul class="flex justify-around items-center">
             <motion.li class="px-px sm:px-3 mr-2 transform hover:scale-110 dark:bg-primary" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}>
               <Link href='/'>
                 <a>
-                  <Image 
-                    src="/icons/home.png" 
-                    width='25' 
-                    height='25' 
-                    alt='home picture'
-                    quality='100'
-                  />
                   Home
                 </a>
               </Link>
@@ -78,13 +71,6 @@ function MainNavigation() {
             <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-px sm:px-3 mr-2 transform hover:scale-110 dark:bg-primary">
               <Link href='/posts'>
                 <a>
-                  <Image 
-                    src="/icons/blog.png" 
-                    width='25' 
-                    height='25' 
-                    alt='blog picture'
-                    quality='100'
-                  />
                   Blog
                 </a>
               </Link>
@@ -92,13 +78,6 @@ function MainNavigation() {
             <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-px sm:px-3 mr-2 transform hover:scale-110 dark:bg-primary">
               <Link href='/portfolio'>
                 <a>
-                  <Image 
-                    src="/icons/portfolio.png" 
-                    width='25' 
-                    height='25' 
-                    alt='portfolio picture'
-                    quality='100'
-                  />
                   Portfolio
                 </a>
               </Link>
@@ -106,13 +85,7 @@ function MainNavigation() {
             <motion.li whileHover={{scale: 1.2}} whileTap={{scale: 0.9}} class="px-px sm:px-3 mr-3 transform hover:scale-110 dark:bg-primary">
               <Link href='/about'>
                 <a>
-                  <Image 
-                    src="/icons/about.png" 
-                    width='25' 
-                    height='25' 
-                    alt='about picture'
-                    quality='100'
-                  />
+
                   About
                 </a>
               </Link>

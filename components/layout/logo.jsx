@@ -3,11 +3,11 @@
 
 
 function Logo() {
-  return(
-    <div class="font-bold font-primary text-xl sm:text-2xl md:text-4xl lg:5xl uppercase">
-      Ahmad Rafi Wirana
+    return ( 
+    <div class = "font-bold font-primary text-lg sm:text-xl md:text-2xl lg:3xl" >
+        Ahmad Rafi Wirana 
     </div>
-  );
+    );
 }
 
 export default Logo;

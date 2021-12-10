@@ -9,7 +9,7 @@ import {motion} from 'framer-motion';
 function Footer() {
   return(
     // eslint-disable-next-line react/react-in-jsx-scope
-    <footer class="px-4 md:px-20 lg:px-32 xl:px-60 2xl:px-80 py-8 flex flex-col md:flex-row justify-between items-center relative inset-x-0 bottom-0 bg-gray-100 dark:bg-primary">
+    <footer class="px-6 md:px-20 lg:px-48 xl:px-60 2xl:px-96 py-8 flex flex-col md:flex-row justify-between items-center relative inset-x-0 bottom-0 bg-gray-100 dark:bg-primary">
       <div class="flex-col md:flex">
         <div>
           < h1 class = "font-primary font-semibold text-xs md:text-2xl" >
