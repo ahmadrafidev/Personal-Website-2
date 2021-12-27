@@ -13,23 +13,36 @@ const BlueLink = styled.a `
   color: blue;
 `
 
-function Profile() {
-  return(
+export default function Profile() {
+  return (
     <section>
-      <div class="px-2 md:px-20 lg:px-32 xl:px-60 2xl:px-80 pt-11 md:pt-12 flex justify-center object-contain bg-white dark:bg-secondary">
-        <motion.img whileHover={{boxShadow: "0px 0px 42px #0dd9e9"}} src="/images/foto.png" alt="its me" class="w-6/12 md:w-3/12 rounded-full" />
-      </div>
       <div class="flex min-h-screen px-4 md:px-20 lg:px-48 xl:px-60 2xl:px-96 pt-9 md:pt-10 justify-between bg-white dark:bg-secondary">
         <div class="min-w-0 font-secondary text-justify text-sm md:text-xl overflow-auto">
-          <div class="font-semibold text-lg md:text-4xl flex mb-5">
-            <h1>Halo!</h1>
-            <div class="min-w-0 flex px-4 ease-out">
-            </div>     
-          </div>
           <div class="font-bold text-lg sm:text-xl md:text-2xl lg:text-4xl flex-col md:flex mb-2">
+            <h1 class="font-semibold text-2xl md:text-6xl flex mb-5 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-500">
+              <Typewriter
+                options={{
+                  autoStart: true,
+                  loop: true,
+                  delay: 40,
+                  strings: [
+                    "Halo!",
+                    "Bonjour!",
+                    "Hola!",
+                    "Ahlan!",
+                    "Hello!",
+                    "Privet!",
+                    "Anyoung haseyo!",
+                    "Hallo!",
+                    "Goede dag!",
+                    "Nǐn hǎo!",
+                  ],
+                }}
+              />
+            </h1>
             <h2 class="mb-6">I'm Rafi, &nbsp;</h2>
-            <p class="animate-bounce bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-blue-600 mb-5">
-              <Typewriter     
+            <p class="bg-clip-text text-transparent bg-gradient-to-r from-green-300 to-blue-600 mb-5">
+              <Typewriter
                 options={{
                   autoStart: true,
                   loop: true,
@@ -39,28 +52,38 @@ function Profile() {
                     "A life-long learner!",
                     "A Tech Enthusiast!",
                     "A Computer Science Student",
-                  ]
+                  ],
                 }}
               />
             </p>
           </div>
+          {/* <motion.img
+            whileHover={{ boxShadow: "0px 0px 42px #0dd9e9" }}
+            src="/images/foto.png"
+            alt="its me"
+            class="w-6/12 md:w-3/12 rounded-full"
+          /> */}
           <div class="leading-loose text-base sm:text-lg md:text-2xl">
             <div class="flex leading-loose font-semibold text-lg md:text-3xl mb-5">
-                <p>Who am I?</p>
+              <p>Who am I?</p>
             </div>
             <div class="flex leading-loose mb-5">
               <p class="flex flex-col sm:flex-row text-sm sm:text-base md:text-xl">
                 I am a sophomore Computer Science student at &nbsp;
                 <Link href="https://www.ui.ac.id/" passHref>
-                    <a class="font-bold hover:underline">
-                      <BlueLink href="https://www.ui.ac.id/"> University of Indonesia.</BlueLink>
-                    </a>
+                  <a class="font-bold hover:underline">
+                    <BlueLink href="https://www.ui.ac.id/">
+                      {" "}
+                      University of Indonesia.
+                    </BlueLink>
+                  </a>
                 </Link>
               </p>
             </div>
             <div class="flex leading-loose">
               <p class="flex flex-col sm:flex-row text-sm sm:text-base md:text-xl">
-                I love to working on some side projects like website and mobile apps.  
+                I love to working on some side projects like website and mobile
+                apps.
               </p>
             </div>
             <div class="mt-6">
@@ -68,7 +91,8 @@ function Profile() {
                 <p>The reason I made this website</p>
               </div>
               <div class="flex mb-5">
-                <p class="text-sm sm:text-base md:text-xl">I code. See what I've done: &nbsp;
+                <p class="text-sm sm:text-base md:text-xl">
+                  I code. See what I've done: &nbsp;
                   <Link href="/portfolio" passHref>
                     <a class="font-bold hover:underline">
                       <BlueLink href="/portfolio">Projects.</BlueLink>
@@ -77,7 +101,8 @@ function Profile() {
                 </p>
               </div>
               <div class="flex leading-loose mb-5">
-                <p class="text-sm sm:text-base md:text-xl">I write. Checkout my writings: &nbsp;
+                <p class="text-sm sm:text-base md:text-xl">
+                  I write. Checkout my writings: &nbsp;
                   <Link href="/posts" passHref>
                     <a class="font-bold hover:underline">
                       <BlueLink href="/posts">Blog.</BlueLink>
@@ -102,5 +127,3 @@ function Profile() {
     </section>
   );
 }
-
-export default Profile;

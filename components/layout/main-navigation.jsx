@@ -58,7 +58,7 @@ function MainNavigation() {
           </svg>
         </button>
       </div>
-      <div class={`${isOpen? 'block': 'hidden'} flex flex-col sm:flex font-semibold text-base sm:text-lg md:text-xl font-primary pt-5 sm:pt-0`}> 
+      <div class={`${isOpen? 'block': 'hidden'} flex flex-col sm:flex font-semibold text-base sm:text-lg md:text-2xl font-primary pt-5 sm:pt-0`}> 
         <nav > 
           <ul class="flex justify-around items-center">
             <motion.li class="px-px sm:px-2 mr-2 transform hover:scale-110 dark:bg-primary" whileHover={{scale: 1.2}} whileTap={{scale: 0.9}}>

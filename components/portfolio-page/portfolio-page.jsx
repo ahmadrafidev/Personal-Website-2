@@ -14,7 +14,7 @@ function Portfolio() {
             Projects.
           </h1>
         </div>
-        <motion.div whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} class="flex flex-wrap w-1/2 -m-4 text-center">
+        <motion.div whileHover={{scale: 1.05}} whileTap={{scale: 0.9}} class="flex flex-wrap w-1/2 -m-4 text-center">
           {projects.map((project) => (
             <a
               href={project.link}
