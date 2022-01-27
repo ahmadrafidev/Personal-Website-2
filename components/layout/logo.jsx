@@ -4,7 +4,7 @@
 
 function Logo() {
     return ( 
-    <div class = "font-bold font-primary text-lg sm:text-xl md:text-3xl" >
+    <div class = "font-bold font-DMSans text-lg sm:text-xl md:text-3xl" >
         Ahmad Rafi 
     </div>
     );

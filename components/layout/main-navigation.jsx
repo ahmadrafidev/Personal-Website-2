@@ -81,7 +81,7 @@ function MainNavigation() {
       <div
         class={`${
           isOpen ? "block" : "hidden"
-        } flex flex-col sm:flex font-semibold text-base sm:text-lg md:text-2xl font-primary pt-5 sm:pt-0`}
+        } flex flex-col sm:flex font-semibold text-base sm:text-lg md:text-2xl font-DMSans pt-5 sm:pt-0`}
       >
         <nav>
           <ul class="flex justify-around items-center">

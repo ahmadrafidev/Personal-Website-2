@@ -12,7 +12,7 @@ function Footer() {
     <footer class="px-6 md:px-20 lg:px-48 xl:px-60 2xl:px-96 py-8 flex flex-col md:flex-row justify-between items-center relative inset-x-0 bottom-0 bg-gray-50 dark:bg-primary">
       <div class="flex-col md:flex">
         <div>
-          < h1 class = "font-primary font-semibold text-xs md:text-xl" >
+          < h1 class = "font-DMSans font-semibold text-xs md:text-xl" >
             Keep in touch with me:
           </h1>
           <div>
@@ -88,7 +88,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div class="font-primary flex flex-shrink-1 mt-4">
+      <div class="font-DMSans flex flex-shrink-1 mt-4">
         <div>
           <p class="text-xs md:text-xl font-bold">
             (c) 2021 - Ahmad Rafi Wirana.
