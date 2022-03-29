@@ -16,8 +16,8 @@ const BlueLink = styled.a `
 export default function Profile() {
   return (
     <section>
-      <div class="flex min-h-screen px-4 md:px-20 lg:px-48 xl:px-60 2xl:px-96 pt-9 md:pt-10 justify-between bg-white dark:bg-secondary">
-        <div class="min-w-0 font-DMSans text-justify text-sm md:text-xl overflow-auto">
+      <div class="min-h-screen px-4 md:px-20 lg:px-48 xl:px-60 2xl:px-96 pt-9 md:pt-10 justify-between bg-white dark:bg-secondary">
+        <div class="font-DMSans text-justify text-sm md:text-xl overflow-auto">
           <div class="font-bold text-lg sm:text-xl md:text-2xl lg:text-4xl flex-col md:flex mb-2">
             <h1 class="font-semibold text-2xl md:text-6xl flex mb-5 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-500">
               <Typewriter
