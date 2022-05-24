@@ -21,12 +21,12 @@ function PostItem(props) {
     <li class="px-2 md:px-20 lg:px-48 xl:px-60 2xl:px-96 flex text-left font-primary my-10">
       <div>
         <Link href={linkPath} passHref>
-          <BlueLink> <motion.h1 whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} class="font-bold text-xl md:text-3xl pb-3">{title}</motion.h1> </BlueLink>
+          <BlueLink> <motion.h1 whileHover={{scale: 1.1}} whileTap={{scale: 0.9}} class="font-bold text-xl md:text-2xl pb-3">{title}</motion.h1> </BlueLink>
         </Link>
-        <p class="font-medium text-lg">{excerpt}.</p>
-        <p class="text-lg md:text-xl"> by {author} - <time>{formattedDate}</time> </p>
+        <p class="font-medium text-base">{excerpt}.</p>
+        <p class="text-sm md:text-base"> by {author} - <time>{formattedDate}</time> </p>
         <Link href={linkPath} passHref>
-          <BlueLink><p class="text-lg md:text-2xl hover:underline">Read More...</p> </BlueLink>
+          <BlueLink><p class="text-base md:text-lg hover:underline">Read More...</p> </BlueLink>
         </Link>
       </div>
     </li>
